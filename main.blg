@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: ieeetr.bst
+Database file #1: bibliografie.bib
+Warning--entry type for "edu-techmania" isn't style-file defined
+--line 66 of file bibliografie.bib
+Warning--empty journal in Manual
+Warning--empty journal in Bozhko
+You've used 10 entries,
+            1876 wiz_defined-function locations,
+            538 strings with 4636 characters,
+and the built_in function-call counts, 1973 in all, are:
+= -- 192
+> -- 62
+< -- 0
++ -- 26
+- -- 16
+* -- 117
+:= -- 291
+add.period$ -- 12
+call.type$ -- 10
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 105
+empty$ -- 213
+format.name$ -- 16
+if$ -- 483
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 11
+newline$ -- 36
+num.names$ -- 10
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 58
+stack$ -- 0
+substring$ -- 92
+swap$ -- 30
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 18
+width$ -- 12
+write$ -- 89
+(There were 3 warnings)
