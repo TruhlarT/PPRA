@@ -12,7 +12,7 @@ Schéma zapojení zdroje elektronů ES40-PS je znázorněno na Obr.~\ref{04schem
 \includegraphics[width = 170 pt]{Figure/04/schema.png}
 \hfill
 \includegraphics[width = 250 pt]{Figure/04/panel.png}
-\caption{Vlevo: Schéma zapojení zdroje elektronů ES40-PS. Vpravo: Ukázka předního ovládacího panelu stanice ES40-PS. Převzato z~\cite{Manual}.}
+\caption[Schéma zapojení a ukázka ovládacího panelu stanice ES40-PS]{Vlevo: Schéma zapojení zdroje elektronů ES40-PS. Vpravo: Ukázka předního ovládacího panelu stanice ES40-PS. Převzato z~\cite{Manual}.}
 \label{04schema}
 \end{figure}
 
@@ -38,18 +38,18 @@ Při současném nastavení výchylky a skenu se může objevit zpráva "SCAN X/
 \begin{figure}[htbp!]
 \centering
 \includegraphics[width = 370 pt]{Figure/04/display.png}
-\caption{Ukázka nastavení parametrů zdroje elektronů a přepnutí do druhého menu. Převzato z~\cite{Manual}}
+\caption[Ukázka nastavení parametrů zdroje elektronů]{Ukázka nastavení parametrů zdroje elektronů a přepnutí do druhého menu. Převzato z~\cite{Manual}}
 \label{04display}
 \end{figure}
 
-princip změny polohy?
-
-\begin{figure}[htbp!]
-\centering
-\includegraphics[width = 170 pt]{Figure/04/schema2.png}
-\caption{. Převzato z~\cite{Manual}}
-\label{04schema2}
-\end{figure}
+%princip změny polohy?
+%
+%\begin{figure}[htbp!]
+%\centering
+%\includegraphics[width = 170 pt]{Figure/04/schema2.png}
+%\caption{. Převzato z~\cite{Manual}}
+%\label{04schema2}
+%\end{figure}
 
 Spuštění zdroje elektronů ES40-PS krok za krokem:
 \begin{enumerate}
@@ -60,11 +60,14 @@ Spuštění zdroje elektronů ES40-PS krok za krokem:
 \end{enumerate} 
 
 
-
 \textbf{DEGAS} procedura
 \begin{enumerate}
 \item Před zapnutím do \textit{OPERATE} módu je nutné nastavit všechny napětí a proudy na minimum. 
-\item Po zapnutí do \textit{OPERATE} módu je nutné nastavit\ následující parametry v daném pořadí: Energie = $2{,}00$ kV, Fokusace = $88{,}0$ \% a Wehneltovo napětí = $71{,}0$ V
+\item Po zapnutí do \textit{OPERATE} módu je nutné nastavit následující parametry v daném pořadí: Energie = $2{,}00$ kV, Fokusace = $88{,}0$ \% a Wehneltovo napětí = $71{,}0$ V
+\item Zvýšení Emise na $300{,}00 \ \mu$A 
+\item S tímto nastavením by mělo zařízení pracovat 10 minut
+\item Následně by měla být emise snížena na minimum a poté i zbývající napětí
 \end{enumerate}
+Během \textit{DEGAS} procedury by měli být parametry zvyšovány postupně se současnou kontrolou tlaku v komoře. Pokud dojde k náhlému poklesu vakua v komoře, mělo by být zařízení ponecháno se stávajícími parametry dokud nedojde k obnovení vakua.
 
 Více podrobností k ovládání zdroje elektronů ES40-PS je popsáno v operačním manuálu ~\cite{Manual}.
