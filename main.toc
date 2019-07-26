@@ -10,13 +10,9 @@
 \contentsline {section}{\numberline {1.4}Z\IeC {\'a}v\IeC {\v e}r}{15}{section.1.4}
 \contentsline {chapter}{\numberline {2}Zdroj elektron\IeC {\r u}, ES40-PS}{17}{chapter.2}
 \contentsline {chapter}{\numberline {3}Fokusace - teorie}{21}{chapter.3}
-\contentsline {chapter}{\numberline {4}Detekce}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Detek\IeC {\v c}n\IeC {\'\i } technologie}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Principy polovodi\IeC {\v c}ov\IeC {\'y}ch detektor\IeC {\r u}}{23}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}P\IeC {\'a}sov\IeC {\'a} struktura}{23}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Vypr\IeC {\'a}zdn\IeC {\v e}n\IeC {\'a} oblast}{25}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Vznik sign\IeC {\'a}lu}{25}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Pixelov\IeC {\'e} detektory}{28}{section.4.3}
-\contentsline {section}{\numberline {4.4}X-CHIP03}{28}{section.4.4}
-\contentsline {chapter}{Shrnut\IeC {\'\i }}{31}{chapter*.21}
-\contentsline {chapter}{Reference}{32}{chapter*.21}
+\contentsline {chapter}{\numberline {4}Simulace fokusa\IeC {\v c}n\IeC {\'\i } soustavy}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Koncept einzel lens}{23}{section.4.1}
+\contentsline {section}{\numberline {4.2}Vlastn\IeC {\'\i } elektronov\IeC {\'e} d\IeC {\v e}lo}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}Urychlov\IeC {\'a}n\IeC {\'\i } svazku z pr\IeC {\r u}myslov\IeC {\'e}ho d\IeC {\v e}la}{26}{section.4.3}
+\contentsline {section}{\numberline {4.4}Zkou\IeC {\v s}ka d\IeC {\v e}la se st\IeC {\'\i }n\IeC {\'\i }tkem}{27}{section.4.4}
+\contentsline {section}{\numberline {4.5}Z\IeC {\'a}v\IeC {\v e}r}{27}{section.4.5}
