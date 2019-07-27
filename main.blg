@@ -1,47 +1,55 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-I found no \bibdata command---while reading file main.aux
-I found no \bibstyle command---while reading file main.aux
-You've used 12 entries,
-            0 wiz_defined-function locations,
-            103 strings with 641 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
+The style file: ieeetr.bst
+Database file #1: bibliografie.bib
+Warning--entry type for "edu-techmania" isn't style-file defined
+--line 65 of file bibliografie.bib
+Warning--empty author in Plyny
+Warning--empty booktitle in Plyny
+Warning--empty year in Plyny
+Warning--empty journal in Bozhko
+Warning--empty journal in Manual
+Warning--empty year in xchip03
+You've used 18 entries,
+            1876 wiz_defined-function locations,
+            584 strings with 5933 characters,
+and the built_in function-call counts, 3664 in all, are:
+= -- 356
+> -- 114
 < -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 48
+- -- 30
+* -- 221
+:= -- 515
+add.period$ -- 23
+call.type$ -- 18
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 24
+duplicate$ -- 202
+empty$ -- 395
+format.name$ -- 30
+if$ -- 913
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
+int.to.str$ -- 18
+missing$ -- 20
+newline$ -- 64
+num.names$ -- 16
+pop$ -- 82
+preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 0
+skip$ -- 114
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 166
+swap$ -- 64
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 2 error messages)
+warning$ -- 6
+while$ -- 30
+width$ -- 20
+write$ -- 160
+(There were 7 warnings)

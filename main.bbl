@@ -1,0 +1,83 @@
+\begin{thebibliography}{10}
+
+\bibitem{PanMysak}
+P.~Mysak, {\em Koucor v bote}.
+\newblock New York: Springer, 2002.
+
+\bibitem{Kralik}
+Kralik, ``{Kralikarna in the reaction $pp \rightarrow pp \pi^{+} \pi^{-} $ at
+  69 GeV/$c$},'' {\em Nuclear Physics B}, vol.~98, no.~2, pp.~189--203, 1975.
+
+\bibitem{01Elektron}
+``Electron.''
+
+\bibitem{Plyny}
+``{Vedení elektrického proudu v plynech a ve vakuu},'' ({Gymnázium F. X.
+  Šaldy}), p.~12.
+
+\bibitem{kracik}
+J.~Kracík, J.~B. Slavík, and J.~Tobiáš, {\em Elektrické výboje}.
+\newblock Praha: Státní nakladateltsví technické literatury, 1964.
+
+\bibitem{Husain1982}
+E.~Husain and R.~S. Nema, ``Analysis of paschen curves for air, n2 and {SF}6
+  using the townsend breakdown equation,'' {\em {IEEE} Transactions on
+  Electrical Insulation}, vol.~{EI}-17, pp.~350--353, Aug. 1982.
+
+\bibitem{Martins2011}
+A.~Martins and M.~Pinheiro, ``On the propulsive force developed by asymmetric
+  capacitors in a vacuum,'' {\em Physics Procedia}, vol.~20, pp.~112--119,
+  2011.
+
+\bibitem{edu-techmania}
+M.~Králová, ``{Výboj při sníženém tlaku }.''
+\newblock
+  https://edu.techmania.cz/cs/encyklopedie/fyzika/elektricky-proud/elektricky-proud-v-plynech/vyboj-pri-snizenem-tlaku.
+
+\bibitem{tipler1987}
+P.~Tipler, {\em College physics}.
+\newblock New York, NY: Worth Publishers, 1987.
+
+\bibitem{Bozhko}
+Y.~Bozhko, J.~Barnard, and N.~Hilleret, ``{Measurements of the Secondary
+  Electron Emission of Some Insulators},'' 1997.
+
+\bibitem{ellion}
+M.~E. Ellion, ``A study of electrical discharge in low-pressure air,'' tech.
+  rep., Jet Propulsion Laboratory, 1965.
+
+\bibitem{Manual}
+{Precision and Vacuum Technology}, ``{ES40-PS Electron Source Power Supply},''
+  February 2018.
+
+\bibitem{lutz1999semiconductor}
+G.~Lutz, {\em Semiconductor Radiation Detectors: Device Physics}.
+\newblock Springer, 2007.
+
+\bibitem{spieler2005semiconductor_detector_systems}
+H.~Spieler, {\em Semiconductor Detector Systems (Series on Semiconductor
+  Science and Technology)}.
+\newblock Oxford University Press, 2005.
+
+\bibitem{ramo1939}
+S.~Ramo, ``Currents induced by electron motion,'' {\em Proceedings of the IRE},
+  vol.~27, pp.~584--585, Sept 1939.
+
+\bibitem{shockley1938}
+W.~Shockley, ``Currents to conductors induced by a moving point charge,'' {\em
+  J.~Appl.~Phys.}, vol.~9, p.~635, 1938.
+
+\bibitem{2015weightfield}
+F.~Cenna, N.~Cartiglia, M.~Friedl, B.~Kolbinger, H.-W. Sadrozinski, A.~Seiden,
+  A.~Zatserklyaniy, and A.~Zatserklyaniy, ``Weightfield2: A fast simulator for
+  silicon and diamond solid state detector,'' {\em Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment}, vol.~796, pp.~149 -- 153, 2015.
+\newblock Proceedings of the 10th International Conference on Radiation Effects
+  on Semiconductor Materials Detectors and Devices.
+
+\bibitem{xchip03}
+M.~Havranek {\em et~al.}, ``X-chip-03 – soi maps sensor with hit counting and
+  adc mode,'' {\em manuscript in preparation}.
+
+\end{thebibliography}

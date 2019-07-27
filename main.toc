@@ -20,3 +20,12 @@
 \contentsline {section}{\numberline {5.3}Urychlov\IeC {\'a}n\IeC {\'\i } svazku z pr\IeC {\r u}myslov\IeC {\'e}ho d\IeC {\v e}la}{30}{section.5.3}
 \contentsline {section}{\numberline {5.4}Zkou\IeC {\v s}ka d\IeC {\v e}la se st\IeC {\'\i }n\IeC {\'\i }tkem}{31}{section.5.4}
 \contentsline {section}{\numberline {5.5}Z\IeC {\'a}v\IeC {\v e}r}{31}{section.5.5}
+\contentsline {chapter}{\numberline {6}Detekce}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Detek\IeC {\v c}n\IeC {\'\i } technologie}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Principy polovodi\IeC {\v c}ov\IeC {\'y}ch detektor\IeC {\r u}}{33}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}P\IeC {\'a}sov\IeC {\'a} struktura}{33}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Vypr\IeC {\'a}zdn\IeC {\v e}n\IeC {\'a} oblast}{35}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Vznik sign\IeC {\'a}lu}{35}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Pixelov\IeC {\'e} detektory}{38}{section.6.3}
+\contentsline {section}{\numberline {6.4}X-CHIP03}{38}{section.6.4}
+\contentsline {chapter}{Reference}{40}{figure.caption.27}
