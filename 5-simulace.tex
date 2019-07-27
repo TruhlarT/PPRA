@@ -1,7 +1,7 @@
 \newpage
 \chapter{Simulace fokusační soustavy}
 
-úvod
+Úvod
 
 \section{Einzel lens}
 
@@ -19,15 +19,15 @@ Princip fokusace je demonstrovaný na Obr. \ref{05simulaceEinzelLens}, na které
 
 \begin{figure}[htbp!]
 \centering
-\includegraphics[width = 366 pt]{Figure/05/3a.jpg}
+\includegraphics[width = \linewidth]{Figure/05/3a.jpg}
 \caption{Simualce fouksační soustavy einzel lens v programu SIMION. Parametry jsou uvedeny v textu.}
 \label{05simulaceEinzelLens}
 \end{figure}
 
 \begin{figure}[htbp!]
 \centering
-\includegraphics[width = 366 pt]{Figure/05/3b.jpg}
-\caption{Znázornění potenciálových hladin fokusační soustavy einzel lens v programu SIMION. Parametry čočky jsou uvedeny v textu.}
+\includegraphics[width = \linewidth]{Figure/05/3b.jpg}
+\caption{Znázornění potenciálových hladin fokusační soustavy einzel lens v programu SIMION. Parametry simulované čočky jsou uvedeny v textu.}
 \label{05simulaceEinzelLensPotencial}
 \end{figure}
 
@@ -37,7 +37,7 @@ Podobnou konfiguraci bylo původně v plánu použít k regulaci elektronového 
 
 Urychlování a fokusování elektronového děla měly zajišťovat čtyři válcové elektrody. Navrhovaná konfigurace byla podmíněna zejména dvěma požadavky:
 \begin{itemize}
-	\item k dispozici byly dva zdroje s napětím $~5$~kV (jeden lze rozdělit pro dvě elektrody) a jeden zdroj vysokého napětí $~80$~kV
+	\item k dispozici byly dva zdroje s napětím $\sim 5$~kV (jeden lze rozdělit pro dvě elektrody) a jeden zdroj vysokého napětí $\sim 80$~kV
 	\item jako elektrody měly sloužit válečky nařezané z měděné trubky o průměru 3 cm různých délek
 \end{itemize}
 
@@ -85,19 +85,81 @@ Ačkoliv to není z Obr. \ref{05simulaceFinalniKonfigurace} vzhledem k nepoměru
 
 \begin{figure}[htbp!]
 \centering
-\includegraphics[width = 366 pt]{Figure/05/1a.jpg}
+\includegraphics[width = \textwidth]{Figure/05/1a.jpg}
 \vfill
+\vspace{0.22cm}
+\includegraphics[width = \linewidth]{Figure/05/1b.jpg}
 \vfill
-\includegraphics[width = 366 pt]{Figure/05/1b.jpg}
-\vfill
-\vfill
-\includegraphics[width = 366 pt]{Figure/05/1c.jpg}
+\vspace{0.22cm}
+\includegraphics[width = \linewidth]{Figure/05/1c.jpg}
 \caption{Simulace fokusování svazku z průmyslového elektronového děla v programu SIMION. Parametry simulace jsou uvedeny v textu. Jednotlivé obrázky se liší pouze napětím na druhé elektrodě. Lze pozorovat posun ohniska.}
 \label{05simulaceFinalniKonfigurace}
 \end{figure}
 
 \section{Zkouška děla se stínítkem}
-zkouška
 
-\section{Závěr}
-závěr
+Vliv elektrického pole fokusační soustavy jsme pozorovali pomocí fluerescenčního stínítka, které jsme umístili ve vzdálenosti $x = 195$ mm od děla. Rozhodli jsme se nejprve vyzkoušet, jak lze vlastnosti profilu svazku měnit nastavováním parametrů průmyslového děla. Vertikální a horizontální výchylky jsme nastavili na $PX = PY = 0$, horizontální i vertikální oblast skenu také vynulovali $dX = dY = 0$. Urychlovací napětí jsme nastavili na $U = 3$ kV a emisní proud na $I = 150$ $\mu$A. Dále jsme měnili fokusaci děla a Wehneltovo napětí a pozorovali, jak se změny projeví na stínítku. Jak by se dalo očekávat, při změně fokusovacího napětí se patřičně zúžoval nebo rozšiřoval průměr svazku. Změna Wehneltova napětí měla za následek rozdvojení svazku na dva, přičemž v závislosti na hodnotě napětí se profily dvou svazků překrývaly nebo vzdalovaly, jak je vidět na Obr. \ref{05dvaSvazky}. Hledali jsme nastavení s optimálním profilem svazku, abychom s ním mohli vyzkoušet fokusaci pomocí našich elektrod. Dospěli jsme k hodnotám Wehneltova napětí $U_W = 70$ V a fokusace 60\%. Profil svazku při tomto nastavení ukazuje Obr. \ref{05optimum}.\\
+
+\begin{figure}[h!]
+\centering
+\begin{minipage}[c]{200pt}
+\includegraphics[width=\textwidth]{Figure/05/DvaSvazky.jpg}
+\end{minipage}
+\begin{minipage}[c]{200pt}
+\includegraphics[width=\textwidth]{Figure/05/Optimum.jpg}
+\end{minipage}
+\\
+\begin{minipage}[c]{200pt}
+\caption[Dva svazky]{Rozštěpení svazku v důsledku změny Wehneltova napětí.}
+\label{05dvaSvazky}
+\end{minipage}
+\begin{minipage}[c]{5pt}
+\end{minipage}
+\vspace{0.1cm}
+\begin{minipage}[c]{200pt}
+\caption[Optimum]{Optimální profil svazku elektronů.}
+\label{05optimum}
+\end{minipage}
+\end{figure}
+
+Po dosažení optimálního profilu svazku jsme zkoušeli připojit elektrody fokusovací soustavy ke zdrojům napětí podle návrhu. Ukázalo se ovšem, že změny napětí se na profilu svazku neprojevovali, jak jsme předpokládali. Byli jsme schopni dosáhnout pouze mírného vychýlení svazku. Otestovali jsme proto ještě několik různých kombinací polarit napětí na elektrodách. Když jsme zapojili pouze první tři elektrody a přivedli na ně napětí ...., byli jsme schopni regulací napětí na x.té elektrodě měnit průměr profilu svazku, jak ukazuje série snímků \ref{05video}. Video z fokusace je dostupné na \url{https://youtu.be/d4yXCXhcra0}.\\ 
+
+\begin{figure}[h!]
+\centering
+
+\includegraphics[width=0.24\textwidth]{Figure/05/video/1.jpg}
+\hfill
+\includegraphics[width=0.24\textwidth]{Figure/05/video/2.jpg}
+\hfill
+\includegraphics[width=0.24\textwidth]{Figure/05/video/3.jpg}
+\hfill
+\includegraphics[width=0.24\textwidth]{Figure/05/video/4.jpg}
+\vfill
+
+\vspace{0.15cm}
+\includegraphics[width=0.24\textwidth]{Figure/05/video/5.jpg}
+\hfill
+\includegraphics[width=0.24\textwidth]{Figure/05/video/6.jpg}
+\hfill
+\includegraphics[width=0.24\textwidth]{Figure/05/video/7.jpg}
+\hfill
+\includegraphics[width=0.24\textwidth]{Figure/05/video/8.jpg}
+\vfill
+
+\vspace{0.15cm}
+\includegraphics[width=0.24\textwidth]{Figure/05/video/9.jpg}
+\hfill
+\includegraphics[width=0.24\textwidth]{Figure/05/video/10.jpg}
+\hfill
+\includegraphics[width=0.24\textwidth]{Figure/05/video/11.jpg}
+\hfill
+\includegraphics[width=0.24\textwidth]{Figure/05/video/12.jpg}
+\vfill
+
+\caption{Záznam fokusace svazku testovací fokusovací soustavou.}
+\label{05video}
+\end{figure}
+
+\section{Diskuze a závěr}
+
+Diskuze a závěr
