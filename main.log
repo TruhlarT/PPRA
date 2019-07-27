@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.12)  27 JUL 2019 01:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.26)  26 JUL 2019 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
@@ -832,7 +832,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count138
 
-<symbol_cvut_konturova_verze_cb.pdf, id=60, 126.78566pt x 96.54268pt>
+<symbol_cvut_konturova_verze_cb.pdf, id=80, 126.78566pt x 96.54268pt>
 File: symbol_cvut_konturova_verze_cb.pdf Graphic file (type pdf)
 
 <use symbol_cvut_konturova_verze_cb.pdf>
@@ -870,46 +870,80 @@ LaTeX Warning: Citation `PanMysak' on page 9 undefined on input line 7.
 
 LaTeX Warning: Citation `Kralik' on page 9 undefined on input line 7.
 
-<Figure/kralik.jpeg, id=151, 266.9975pt x 189.70876pt>
+<Figure/kralik.jpeg, id=179, 266.9975pt x 189.70876pt>
 File: Figure/kralik.jpeg Graphic file (type jpg)
 
 <use Figure/kralik.jpeg>
 Package pdftex.def Info: Figure/kralik.jpeg used on input line 11.
 (pdftex.def)             Requested size: 170.0pt x 120.7937pt.
 
-<Figure/mysak.jpeg, id=152, 225.84375pt x 225.84375pt>
+<Figure/mysak.jpeg, id=180, 225.84375pt x 225.84375pt>
 File: Figure/mysak.jpeg Graphic file (type jpg)
  <use Figure/mysak.jpeg>
 Package pdftex.def Info: Figure/mysak.jpeg used on input line 13.
 (pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
-) (./2-storek.tex [9 <./Figure/kralik.jpeg> <./Figure/mysak.jpeg>] [10
+) (./1-robotkova.tex [9 <./Figure/kralik.jpeg> <./Figure/mysak.jpeg>] [10
 
 ]
 Kapitola 1.
 
-LaTeX Warning: Citation `kracik' on page 11 undefined on input line 8.
+LaTeX Warning: Citation `01Elektron' on page 11 undefined on input line 6.
 
 
-LaTeX Warning: Citation `kracik' on page 11 undefined on input line 8.
+Package hyperref Warning: Composite letter `\textasciicaron+r'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 12.
+
+[11] <Figure/01/katody.png, id=198, 616.3025pt x 884.30376pt>
+File: Figure/01/katody.png Graphic file (type png)
+
+<use Figure/01/katody.png>
+Package pdftex.def Info: Figure/01/katody.png used on input line 17.
+(pdftex.def)             Requested size: 170.0pt x 243.91968pt.
 
 
-LaTeX Warning: Citation `kracik' on page 11 undefined on input line 12.
-
-[11]
-
-LaTeX Warning: Citation `Husain1982' on page 12 undefined on input line 19.
+LaTeX Warning: Citation `Plyny' on page 12 undefined on input line 18.
 
 
-LaTeX Warning: Citation `kracik' on page 12 undefined on input line 20.
+LaTeX Warning: Citation `Plyny' on page 12 undefined on input line 18.
 
-<Figure/02/paschen.png, id=170, 1749.53625pt x 1195.46625pt>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+
+Underfull \vbox (badness 1789) has occurred while \output is active []
+
+ [12 <./Figure/01/katody.png>]) (./2-storek.tex [13] [14
+
+]
+Kapitola 2.
+
+LaTeX Warning: Citation `kracik' on page 15 undefined on input line 8.
+
+
+LaTeX Warning: Citation `kracik' on page 15 undefined on input line 8.
+
+
+LaTeX Warning: Citation `kracik' on page 15 undefined on input line 12.
+
+[15]
+
+LaTeX Warning: Citation `Husain1982' on page 16 undefined on input line 19.
+
+
+LaTeX Warning: Citation `kracik' on page 16 undefined on input line 20.
+
+<Figure/02/paschen.png, id=221, 1749.53625pt x 1195.46625pt>
 File: Figure/02/paschen.png Graphic file (type png)
 
 <use Figure/02/paschen.png>
 Package pdftex.def Info: Figure/02/paschen.png used on input line 30.
 (pdftex.def)             Requested size: 200.0pt x 136.64574pt.
 
-<Figure/02/paschen_air.png, id=171, 460.72125pt x 362.85562pt>
+<Figure/02/paschen_air.png, id=222, 460.72125pt x 362.85562pt>
 File: Figure/02/paschen_air.png Graphic file (type png)
 
 <use Figure/02/paschen_air.png>
@@ -917,22 +951,22 @@ Package pdftex.def Info: Figure/02/paschen_air.png used on input line 33.
 (pdftex.def)             Requested size: 200.0pt x 157.51425pt.
 
 
-LaTeX Warning: Citation `kracik' on page 12 undefined on input line 37.
+LaTeX Warning: Citation `kracik' on page 16 undefined on input line 37.
 
 
-LaTeX Warning: Citation `kracik' on page 12 undefined on input line 37.
+LaTeX Warning: Citation `kracik' on page 16 undefined on input line 37.
 
 
-LaTeX Warning: Citation `Martins2011' on page 12 undefined on input line 43.
+LaTeX Warning: Citation `Martins2011' on page 16 undefined on input line 43.
 
 
-LaTeX Warning: Citation `Martins2011' on page 12 undefined on input line 43.
+LaTeX Warning: Citation `Martins2011' on page 16 undefined on input line 43.
 
 
-LaTeX Warning: Citation `kracik' on page 12 undefined on input line 49.
+LaTeX Warning: Citation `kracik' on page 16 undefined on input line 49.
 
 
-LaTeX Warning: Citation `edu-techmania' on page 12 undefined on input line 49.
+LaTeX Warning: Citation `edu-techmania' on page 16 undefined on input line 49.
 
 
 Overfull \hbox (2.79265pt too wide) in paragraph at lines 49--50
@@ -941,26 +975,26 @@ o-vá-zeno vzr·s-tem proudu
  []
 
 
-LaTeX Warning: Citation `kracik' on page 12 undefined on input line 52.
+LaTeX Warning: Citation `kracik' on page 16 undefined on input line 52.
 
 
-LaTeX Warning: Citation `kracik' on page 12 undefined on input line 52.
+LaTeX Warning: Citation `kracik' on page 16 undefined on input line 52.
 
 
-LaTeX Warning: Citation `kracik' on page 12 undefined on input line 52.
+LaTeX Warning: Citation `kracik' on page 16 undefined on input line 52.
 
 
-LaTeX Warning: Citation `tipler1987' on page 12 undefined on input line 52.
+LaTeX Warning: Citation `tipler1987' on page 16 undefined on input line 52.
 
-[12 <./Figure/02/paschen.png> <./Figure/02/paschen_air.png>]
-<Figure/02/doutnavy.png, id=191, 359.84438pt x 267.24844pt>
+[16 <./Figure/02/paschen.png> <./Figure/02/paschen_air.png>]
+<Figure/02/doutnavy.png, id=237, 359.84438pt x 267.24844pt>
 File: Figure/02/doutnavy.png Graphic file (type png)
 
 <use Figure/02/doutnavy.png>
 Package pdftex.def Info: Figure/02/doutnavy.png used on input line 63.
 (pdftex.def)             Requested size: 200.0pt x 148.54076pt.
 
-<Figure/02/paschen_moje.png, id=192, 481.8pt x 361.35pt>
+<Figure/02/paschen_moje.png, id=238, 481.8pt x 361.35pt>
 File: Figure/02/paschen_moje.png Graphic file (type png)
 
 <use Figure/02/paschen_moje.png>
@@ -968,10 +1002,10 @@ Package pdftex.def Info: Figure/02/paschen_moje.png used on input line 66.
 (pdftex.def)             Requested size: 200.0pt x 149.99605pt.
 
 
-LaTeX Warning: Citation `edu-techmania' on page 13 undefined on input line 70.
+LaTeX Warning: Citation `edu-techmania' on page 17 undefined on input line 70.
 
 
-LaTeX Warning: Citation `edu-techmania' on page 13 undefined on input line 70.
+LaTeX Warning: Citation `edu-techmania' on page 17 undefined on input line 70.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
@@ -989,17 +1023,17 @@ Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                removing `\textring' on input line 82.
 
 
-LaTeX Warning: Citation `Bozhko' on page 13 undefined on input line 86.
+LaTeX Warning: Citation `Bozhko' on page 17 undefined on input line 86.
 
-[13 <./Figure/02/doutnavy.png> <./Figure/02/paschen_moje.png>]
-<Figure/02/fialovy_vyboj.png, id=211, 251.13824pt x 277.63725pt>
+[17 <./Figure/02/doutnavy.png> <./Figure/02/paschen_moje.png>]
+<Figure/02/fialovy_vyboj.png, id=256, 251.13824pt x 277.63725pt>
 File: Figure/02/fialovy_vyboj.png Graphic file (type png)
 
 <use Figure/02/fialovy_vyboj.png>
 Package pdftex.def Info: Figure/02/fialovy_vyboj.png used on input line 100.
 (pdftex.def)             Requested size: 200.0pt x 221.1103pt.
 
-<Figure/02/jiskra.png, id=212, 392.21532pt x 486.31688pt>
+<Figure/02/jiskra.png, id=257, 392.21532pt x 486.31688pt>
 File: Figure/02/jiskra.png Graphic file (type png)
 
 <use Figure/02/jiskra.png>
@@ -1010,31 +1044,31 @@ Package pdftex.def Info: Figure/02/jiskra.png used on input line 103.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `ellion' on page 14 undefined on input line 120.
+LaTeX Warning: Citation `ellion' on page 18 undefined on input line 120.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 125.
 
-[14]) (./4-truhlar.tex [15 <./Figure/02/fialovy_vyboj.png> <./Figure/02/jiskra.
-png>] [16
+[18]) (./4-truhlar.tex [19 <./Figure/02/fialovy_vyboj.png> <./Figure/02/jiskra.
+png>] [20
 
 ]
-Kapitola 2.
+Kapitola 3.
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textring' on input line 2.
 
-<Figure/04/schema.png, id=236, 745.78625pt x 440.64626pt>
+<Figure/04/schema.png, id=282, 745.78625pt x 440.64626pt>
 File: Figure/04/schema.png Graphic file (type png)
 
 <use Figure/04/schema.png>
 Package pdftex.def Info: Figure/04/schema.png used on input line 12.
 (pdftex.def)             Requested size: 170.0pt x 100.4388pt.
 
-<Figure/04/panel.png, id=237, 916.42375pt x 251.94125pt>
+<Figure/04/panel.png, id=283, 916.42375pt x 251.94125pt>
 File: Figure/04/panel.png Graphic file (type png)
 
 <use Figure/04/panel.png>
@@ -1042,19 +1076,13 @@ Package pdftex.def Info: Figure/04/panel.png used on input line 14.
 (pdftex.def)             Requested size: 250.0pt x 68.72855pt.
 
 
-LaTeX Warning: Citation `Manual' on page 17 undefined on input line 15.
+LaTeX Warning: Citation `Manual' on page 21 undefined on input line 15.
 
 
-LaTeX Warning: Citation `Manual' on page 17 undefined on input line 15.
+LaTeX Warning: Citation `Manual' on page 21 undefined on input line 15.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
- [17 <./Figure/04/schema.png (PNG copy)> <./Figure/04/panel.png (PNG copy)>]
-<Figure/04/display.png, id=244, 1558.82375pt x 469.755pt>
+[21 <./Figure/04/schema.png (PNG copy)> <./Figure/04/panel.png (PNG copy)>]
+<Figure/04/display.png, id=290, 1558.82375pt x 469.755pt>
 File: Figure/04/display.png Graphic file (type png)
 
 <use Figure/04/display.png>
@@ -1062,27 +1090,27 @@ Package pdftex.def Info: Figure/04/display.png used on input line 40.
 (pdftex.def)             Requested size: 370.0pt x 111.49629pt.
 
 
-LaTeX Warning: Citation `Manual' on page 18 undefined on input line 41.
+LaTeX Warning: Citation `Manual' on page 22 undefined on input line 41.
 
 
-LaTeX Warning: Citation `Manual' on page 18 undefined on input line 41.
+LaTeX Warning: Citation `Manual' on page 22 undefined on input line 41.
 
-[18 <./Figure/04/display.png (PNG copy)>]
+[22 <./Figure/04/display.png (PNG copy)>]
 
-LaTeX Warning: Citation `Manual' on page 19 undefined on input line 73.
+LaTeX Warning: Citation `Manual' on page 23 undefined on input line 73.
 
-) (./5-fokusace.tex [19] [20
+) (./5-fokusace.tex [23] [24
 
 ]
-Kapitola 3.
-<Figure/05/einzel.png, id=268, 413.545pt x 99.37125pt>
+Kapitola 4.
+<Figure/05/einzel.png, id=314, 413.545pt x 99.37125pt>
 File: Figure/05/einzel.png Graphic file (type png)
 
 <use Figure/05/einzel.png>
 Package pdftex.def Info: Figure/05/einzel.png used on input line 8.
 (pdftex.def)             Requested size: 341.43436pt x 82.04596pt.
 
-<Figure/05/pole.png, id=270, 495.8525pt x 179.67125pt>
+<Figure/05/pole.png, id=316, 495.8525pt x 179.67125pt>
 File: Figure/05/pole.png Graphic file (type png)
 
 <use Figure/05/pole.png>
@@ -1091,8 +1119,8 @@ Package pdftex.def Info: Figure/05/pole.png used on input line 15.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21 <./Figure/05/einzel.png>]) (./5-simulace.tex [22 <./Figure/05/pole.png>]
-Kapitola 4.
+ [25 <./Figure/05/einzel.png>]) (./5-simulace.tex [26 <./Figure/05/pole.png>]
+Kapitola 5.
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
@@ -1108,22 +1136,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-[23
+[27
 
-] <Figure/05/schema.png, id=290, 1927.2pt x 581.17125pt>
+] <Figure/05/schema.png, id=335, 1927.2pt x 581.17125pt>
 File: Figure/05/schema.png Graphic file (type png)
 
 <use Figure/05/schema.png>
 Package pdftex.def Info: Figure/05/schema.png used on input line 14.
 (pdftex.def)             Requested size: 366.0pt x 110.37047pt.
 
-<Figure/05/3a.jpg, id=291, 1555.8125pt x 495.8525pt>
+<Figure/05/3a.jpg, id=336, 1555.8125pt x 495.8525pt>
 File: Figure/05/3a.jpg Graphic file (type jpg)
  <use Figure/05/3a.jpg>
 Package pdftex.def Info: Figure/05/3a.jpg used on input line 21.
 (pdftex.def)             Requested size: 366.0pt x 116.64641pt.
 
-<Figure/05/3b.jpg, id=292, 1419.3025pt x 822.07124pt>
+<Figure/05/3b.jpg, id=337, 1419.3025pt x 822.07124pt>
 File: Figure/05/3b.jpg Graphic file (type jpg)
  <use Figure/05/3b.jpg>
 Package pdftex.def Info: Figure/05/3b.jpg used on input line 28.
@@ -1133,13 +1161,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[24 <./Figure/05/schema.png> <./Figure/05/3a.jpg> <./Figure/05/3b.jpg>]
+[28 <./Figure/05/schema.png> <./Figure/05/3a.jpg> <./Figure/05/3b.jpg>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 35.
 
-<Figure/05/2a.jpg, id=298, 1803.73875pt x 384.43625pt>
+<Figure/05/2a.jpg, id=343, 1803.73875pt x 384.43625pt>
 File: Figure/05/2a.jpg Graphic file (type jpg)
  <use Figure/05/2a.jpg>
 Package pdftex.def Info: Figure/05/2a.jpg used on input line 53.
@@ -1149,8 +1177,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[25 <./Figure/05/2a.jpg>]
-<Figure/05/2c.jpg, id=306, 1639.12375pt x 412.54124pt>
+[29 <./Figure/05/2a.jpg>]
+<Figure/05/2c.jpg, id=348, 1639.12375pt x 412.54124pt>
 File: Figure/05/2c.jpg Graphic file (type jpg)
  <use Figure/05/2c.jpg>
 Package pdftex.def Info: Figure/05/2c.jpg used on input line 62.
@@ -1176,19 +1204,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-[26 <./Figure/05/2c.jpg>] <Figure/05/1a.jpg, id=316, 1776.6375pt x 463.7325pt>
+[30 <./Figure/05/2c.jpg>] <Figure/05/1a.jpg, id=357, 1776.6375pt x 463.7325pt>
 File: Figure/05/1a.jpg Graphic file (type jpg)
 
 <use Figure/05/1a.jpg>
 Package pdftex.def Info: Figure/05/1a.jpg used on input line 87.
 (pdftex.def)             Requested size: 366.0pt x 95.52571pt.
- <Figure/05/1b.jpg, id=317, 1610.015pt x 411.5375pt>
+ <Figure/05/1b.jpg, id=358, 1610.015pt x 411.5375pt>
 File: Figure/05/1b.jpg Graphic file (type jpg)
 
 <use Figure/05/1b.jpg>
 Package pdftex.def Info: Figure/05/1b.jpg used on input line 90.
 (pdftex.def)             Requested size: 366.0pt x 93.5527pt.
- <Figure/05/1c.jpg, id=318, 1615.03375pt x 310.15875pt>
+ <Figure/05/1c.jpg, id=359, 1615.03375pt x 310.15875pt>
 File: Figure/05/1c.jpg Graphic file (type jpg)
 
 <use Figure/05/1c.jpg>
@@ -1206,77 +1234,52 @@ Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                removing `\textasciicaron' on input line 100.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
-[27 <./Figure/05/1a.jpg> <./Figure/05/1b.jpg> <./Figure/05/1c.jpg>]
+[31 <./Figure/05/1a.jpg> <./Figure/05/1b.jpg> <./Figure/05/1c.jpg>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 68247B4D5FF48C6B2457C3CE7D852BEF;1267.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: C10A06B6D3F2BBCED00C658E088B3E4F;999
-(rerunfilecheck)             After:  DAB79A79A5C635B09AF519046B984BCE;1012.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) ) 
 Here is how much of TeX's memory you used:
- 11169 strings out of 494919
- 160864 string characters out of 6179680
- 269497 words of memory out of 5000000
- 14162 multiletter control sequences out of 15000+600000
+ 11190 strings out of 493029
+ 161098 string characters out of 6136233
+ 274339 words of memory out of 5000000
+ 14421 multiletter control sequences out of 15000+600000
  19737 words of font info for 44 fonts, out of 8000000 for 9000
- 24 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  37i,11n,40p,1518b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.3.0.5} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.0.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.0.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.0.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.0.1} has been referenced but does not 
-exist, replaced by a fixed one
-
- </home/jakub/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/jak
-ub/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/jakub/.texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/jakub/.texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecrm0700.600pk> </home/jakub/.texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecrm0800.600pk> </home/jakub/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-bx1440.600pk> </home/jakub/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600p
-k> </home/jakub/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/j
-akub/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/jakub/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/jakub/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (27 pages, 6843848 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+rm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
+m2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (31 pages, 6995602 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 348 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 463 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
