@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  29 JUL 2019 09:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.15)  29 JUL 2019 09:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -852,22 +852,19 @@ rze_cb.pdf>] [2] (./main.toc)
 ] [4
 
 ] (./main.lof
-Overfull \hbox (8.69774pt too wide) in paragraph at lines 26--26
+Overfull \hbox (8.69774pt too wide) in paragraph at lines 28--28
  [][] [][]\T1/cmr/m/n/12 P°echod mezi P (na-levo) a N (na-pravo) po-lo-vo-di£i.
  Zna-ménka v krouºku 
  []
 
-
-Overfull \hbox (5.64754pt too wide) in paragraph at lines 29--29
+[5]
+Overfull \hbox (5.64754pt too wide) in paragraph at lines 31--31
  [][] [][]\T1/cmr/m/n/12 Model de-signu (vlevo) a fo-to-gra-fie (vpravo) de-tek
 £-ního £ipu X-CHIP03, 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-Overfull \hbox (15.61864pt too wide) in paragraph at lines 31--31
+Overfull \hbox (15.61864pt too wide) in paragraph at lines 33--33
  [][] [][]\T1/cmr/m/n/12 St°ední ode-zva v²ech pi-xel· de-tek-toru v jed-not-ká
 ch analogov¥-digitálního 
  []
@@ -891,7 +888,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 12.
 
-[9] <Figure/01/katody.png, id=297, 616.3025pt x 884.30376pt>
+[9] <Figure/01/katody.png, id=308, 616.3025pt x 884.30376pt>
 File: Figure/01/katody.png Graphic file (type png)
 
 <use Figure/01/katody.png>
@@ -911,14 +908,14 @@ Underfull \vbox (badness 1789) has occurred while \output is active []
 
 ]
 Kapitola 2.
-[13] <Figure/02/paschen.png, id=330, 1749.53625pt x 1195.46625pt>
+[13] <Figure/02/paschen.png, id=341, 1749.53625pt x 1195.46625pt>
 File: Figure/02/paschen.png Graphic file (type png)
 
 <use Figure/02/paschen.png>
 Package pdftex.def Info: Figure/02/paschen.png used on input line 30.
 (pdftex.def)             Requested size: 200.0pt x 136.64574pt.
 
-<Figure/02/paschen_air.png, id=331, 460.72125pt x 362.85562pt>
+<Figure/02/paschen_air.png, id=342, 460.72125pt x 362.85562pt>
 File: Figure/02/paschen_air.png Graphic file (type png)
 
 <use Figure/02/paschen_air.png>
@@ -931,14 +928,14 @@ o-vá-zeno vzr·s-tem proudu
  []
 
 [14 <./Figure/02/paschen.png> <./Figure/02/paschen_air.png>]
-<Figure/02/doutnavy.png, id=359, 359.84438pt x 267.24844pt>
+<Figure/02/doutnavy.png, id=370, 359.84438pt x 267.24844pt>
 File: Figure/02/doutnavy.png Graphic file (type png)
 
 <use Figure/02/doutnavy.png>
 Package pdftex.def Info: Figure/02/doutnavy.png used on input line 63.
 (pdftex.def)             Requested size: 200.0pt x 148.54076pt.
 
-<Figure/02/paschen_moje.png, id=360, 481.8pt x 361.35pt>
+<Figure/02/paschen_moje.png, id=371, 481.8pt x 361.35pt>
 File: Figure/02/paschen_moje.png Graphic file (type png)
 
 <use Figure/02/paschen_moje.png>
@@ -961,14 +958,14 @@ Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                removing `\textring' on input line 82.
 
 [15 <./Figure/02/doutnavy.png> <./Figure/02/paschen_moje.png>]
-<Figure/02/fialovy_vyboj.png, id=382, 251.13824pt x 277.63725pt>
+<Figure/02/fialovy_vyboj.png, id=393, 251.13824pt x 277.63725pt>
 File: Figure/02/fialovy_vyboj.png Graphic file (type png)
 
 <use Figure/02/fialovy_vyboj.png>
 Package pdftex.def Info: Figure/02/fialovy_vyboj.png used on input line 100.
 (pdftex.def)             Requested size: 200.0pt x 221.1103pt.
 
-<Figure/02/jiskra.png, id=383, 392.21532pt x 486.31688pt>
+<Figure/02/jiskra.png, id=394, 392.21532pt x 486.31688pt>
 File: Figure/02/jiskra.png Graphic file (type png)
 
 <use Figure/02/jiskra.png>
@@ -993,21 +990,21 @@ Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textring' on input line 2.
 
-<Figure/04/schema.png, id=409, 745.78625pt x 440.64626pt>
+<Figure/04/schema.png, id=420, 745.78625pt x 440.64626pt>
 File: Figure/04/schema.png Graphic file (type png)
 
 <use Figure/04/schema.png>
 Package pdftex.def Info: Figure/04/schema.png used on input line 12.
 (pdftex.def)             Requested size: 170.0pt x 100.4388pt.
 
-<Figure/04/panel.png, id=410, 916.42375pt x 251.94125pt>
+<Figure/04/panel.png, id=421, 916.42375pt x 251.94125pt>
 File: Figure/04/panel.png Graphic file (type png)
 
 <use Figure/04/panel.png>
 Package pdftex.def Info: Figure/04/panel.png used on input line 14.
 (pdftex.def)             Requested size: 250.0pt x 68.72855pt.
  [19 <./Figure/04/schema.png (PNG copy)> <./Figure/04/panel.png (PNG copy)>]
-<Figure/04/display.png, id=421, 1558.82375pt x 469.755pt>
+<Figure/04/display.png, id=432, 1558.82375pt x 469.755pt>
 File: Figure/04/display.png Graphic file (type png)
 
 <use Figure/04/display.png>
@@ -1018,14 +1015,14 @@ Package pdftex.def Info: Figure/04/display.png used on input line 40.
 
 ]
 Kapitola 4.
-<Figure/05/einzel.png, id=447, 413.545pt x 99.37125pt>
+<Figure/05/einzel.png, id=459, 413.545pt x 99.37125pt>
 File: Figure/05/einzel.png Graphic file (type png)
 
 <use Figure/05/einzel.png>
 Package pdftex.def Info: Figure/05/einzel.png used on input line 8.
 (pdftex.def)             Requested size: 341.43436pt x 82.04596pt.
 
-<Figure/05/pole.png, id=449, 495.8525pt x 179.67125pt>
+<Figure/05/pole.png, id=461, 495.8525pt x 179.67125pt>
 File: Figure/05/pole.png Graphic file (type png)
 
 <use Figure/05/pole.png>
@@ -1042,114 +1039,221 @@ Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                removing `\textasciicaron' on input line 2.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
 
  []
 
+<Figure/05/3a.jpg, id=474, 1555.8125pt x 495.8525pt>
+File: Figure/05/3a.jpg Graphic file (type jpg)
+ <use Figure/05/3a.jpg>
+Package pdftex.def Info: Figure/05/3a.jpg used on input line 22.
+(pdftex.def)             Requested size: 426.79134pt x 136.02316pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+<Figure/05/3b.jpg, id=475, 1419.3025pt x 822.07124pt>
+File: Figure/05/3b.jpg Graphic file (type jpg)
+ <use Figure/05/3b.jpg>
+Package pdftex.def Info: Figure/05/3b.jpg used on input line 29.
+(pdftex.def)             Requested size: 426.79134pt x 247.20029pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 [25
 
-] <Figure/05/schema.png, id=469, 1927.2pt x 581.17125pt>
-File: Figure/05/schema.png Graphic file (type png)
-
-<use Figure/05/schema.png>
-Package pdftex.def Info: Figure/05/schema.png used on input line 14.
-(pdftex.def)             Requested size: 366.0pt x 110.37047pt.
-
-<Figure/05/3a.jpg, id=470, 1555.8125pt x 495.8525pt>
-File: Figure/05/3a.jpg Graphic file (type jpg)
- <use Figure/05/3a.jpg>
-Package pdftex.def Info: Figure/05/3a.jpg used on input line 21.
-(pdftex.def)             Requested size: 366.0pt x 116.64641pt.
-
-<Figure/05/3b.jpg, id=471, 1419.3025pt x 822.07124pt>
-File: Figure/05/3b.jpg Graphic file (type jpg)
- <use Figure/05/3b.jpg>
-Package pdftex.def Info: Figure/05/3b.jpg used on input line 28.
-(pdftex.def)             Requested size: 366.0pt x 211.98988pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-[26 <./Figure/05/schema.png> <./Figure/05/3a.jpg> <./Figure/05/3b.jpg>]
+ <./Figure/05/3a.jpg>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 35.
+(hyperref)                removing `\textasciicaron' on input line 36.
 
-<Figure/05/2a.jpg, id=477, 1803.73875pt x 384.43625pt>
+[26 <./Figure/05/3b.jpg>]
+<Figure/05/2a.jpg, id=486, 1803.73875pt x 384.43625pt>
 File: Figure/05/2a.jpg Graphic file (type jpg)
  <use Figure/05/2a.jpg>
-Package pdftex.def Info: Figure/05/2a.jpg used on input line 53.
+Package pdftex.def Info: Figure/05/2a.jpg used on input line 54.
 (pdftex.def)             Requested size: 366.0pt x 78.00629pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-[27 <./Figure/05/2a.jpg>]
-<Figure/05/2c.jpg, id=482, 1639.12375pt x 412.54124pt>
+<Figure/05/2c.jpg, id=488, 1639.12375pt x 412.54124pt>
 File: Figure/05/2c.jpg Graphic file (type jpg)
  <use Figure/05/2c.jpg>
-Package pdftex.def Info: Figure/05/2c.jpg used on input line 62.
+Package pdftex.def Info: Figure/05/2c.jpg used on input line 63.
 (pdftex.def)             Requested size: 366.0pt x 92.11275pt.
 
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 67.
+(hyperref)                removing `\textring' on input line 68.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 67.
+(hyperref)                removing `\textasciicaron' on input line 68.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[28 <./Figure/05/2c.jpg>] <Figure/05/1a.jpg, id=491, 1776.6375pt x 463.7325pt>
+[27 <./Figure/05/2a.jpg> <./Figure/05/2c.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+<Figure/05/1a.jpg, id=494, 1776.6375pt x 463.7325pt>
 File: Figure/05/1a.jpg Graphic file (type jpg)
+ <use Figure/05/1a.jpg>
+Package pdftex.def Info: Figure/05/1a.jpg used on input line 88.
+(pdftex.def)             Requested size: 426.79134pt x 111.39713pt.
 
-<use Figure/05/1a.jpg>
-Package pdftex.def Info: Figure/05/1a.jpg used on input line 87.
-(pdftex.def)             Requested size: 366.0pt x 95.52571pt.
- <Figure/05/1b.jpg, id=492, 1610.015pt x 411.5375pt>
+<Figure/05/1b.jpg, id=495, 1610.015pt x 411.5375pt>
 File: Figure/05/1b.jpg Graphic file (type jpg)
+ <use Figure/05/1b.jpg>
+Package pdftex.def Info: Figure/05/1b.jpg used on input line 91.
+(pdftex.def)             Requested size: 426.79134pt x 109.08832pt.
 
-<use Figure/05/1b.jpg>
-Package pdftex.def Info: Figure/05/1b.jpg used on input line 90.
-(pdftex.def)             Requested size: 366.0pt x 93.5527pt.
- <Figure/05/1c.jpg, id=493, 1615.03375pt x 310.15875pt>
+<Figure/05/1c.jpg, id=496, 1615.03375pt x 310.15875pt>
 File: Figure/05/1c.jpg Graphic file (type jpg)
-
-<use Figure/05/1c.jpg>
-Package pdftex.def Info: Figure/05/1c.jpg used on input line 93.
-(pdftex.def)             Requested size: 366.0pt x 70.2891pt.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+e'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 98.
+ <use Figure/05/1c.jpg>
+Package pdftex.def Info: Figure/05/1c.jpg used on input line 94.
+(pdftex.def)             Requested size: 426.79134pt x 81.96451pt.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 100.
+(hyperref)                removing `\textasciicaron' on input line 99.
 
-) (./7-Detekce.tex [29 <./Figure/05/1a.jpg> <./Figure/05/1b.jpg> <./Figure/05/1
-c.jpg>] [30
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+[28] [29 <./Figure/05/1a.jpg> <./Figure/05/1b.jpg> <./Figure/05/1c.jpg>]
+<Figure/05/DvaSvazky.jpg, id=510, 2365.83875pt x 2483.2775pt>
+File: Figure/05/DvaSvazky.jpg Graphic file (type jpg)
+
+<use Figure/05/DvaSvazky.jpg>
+Package pdftex.def Info: Figure/05/DvaSvazky.jpg used on input line 106.
+(pdftex.def)             Requested size: 200.0pt x 209.92009pt.
+
+<Figure/05/Optimum.jpg, id=511, 2365.83875pt x 2483.2775pt>
+File: Figure/05/Optimum.jpg Graphic file (type jpg)
+
+<use Figure/05/Optimum.jpg>
+Package pdftex.def Info: Figure/05/Optimum.jpg used on input line 109.
+(pdftex.def)             Requested size: 200.0pt x 209.92009pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 125.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+<Figure/05/video/1.jpg, id=514, 360.34625pt x 422.57875pt>
+File: Figure/05/video/1.jpg Graphic file (type jpg)
+
+<use Figure/05/video/1.jpg>
+Package pdftex.def Info: Figure/05/video/1.jpg used on input line 130.
+(pdftex.def)             Requested size: 102.43225pt x 120.12024pt.
+
+<Figure/05/video/2.jpg, id=515, 361.35pt x 422.57875pt>
+File: Figure/05/video/2.jpg Graphic file (type jpg)
+
+<use Figure/05/video/2.jpg>
+Package pdftex.def Info: Figure/05/video/2.jpg used on input line 132.
+(pdftex.def)             Requested size: 102.43225pt x 119.78494pt.
+
+<Figure/05/video/3.jpg, id=516, 361.35pt x 422.57875pt>
+File: Figure/05/video/3.jpg Graphic file (type jpg)
+
+<use Figure/05/video/3.jpg>
+Package pdftex.def Info: Figure/05/video/3.jpg used on input line 134.
+(pdftex.def)             Requested size: 102.43225pt x 119.78494pt.
+
+<Figure/05/video/4.jpg, id=517, 363.3575pt x 422.57875pt>
+File: Figure/05/video/4.jpg Graphic file (type jpg)
+
+<use Figure/05/video/4.jpg>
+Package pdftex.def Info: Figure/05/video/4.jpg used on input line 136.
+(pdftex.def)             Requested size: 102.43225pt x 119.12724pt.
+
+<Figure/05/video/5.jpg, id=518, 360.34625pt x 422.57875pt>
+File: Figure/05/video/5.jpg Graphic file (type jpg)
+
+<use Figure/05/video/5.jpg>
+Package pdftex.def Info: Figure/05/video/5.jpg used on input line 140.
+(pdftex.def)             Requested size: 102.43225pt x 120.12024pt.
+
+<Figure/05/video/6.jpg, id=519, 361.35pt x 422.57875pt>
+File: Figure/05/video/6.jpg Graphic file (type jpg)
+
+<use Figure/05/video/6.jpg>
+Package pdftex.def Info: Figure/05/video/6.jpg used on input line 142.
+(pdftex.def)             Requested size: 102.43225pt x 119.78494pt.
+
+<Figure/05/video/7.jpg, id=520, 361.35pt x 422.57875pt>
+File: Figure/05/video/7.jpg Graphic file (type jpg)
+
+<use Figure/05/video/7.jpg>
+Package pdftex.def Info: Figure/05/video/7.jpg used on input line 144.
+(pdftex.def)             Requested size: 102.43225pt x 119.78494pt.
+
+<Figure/05/video/8.jpg, id=521, 361.35pt x 423.5825pt>
+File: Figure/05/video/8.jpg Graphic file (type jpg)
+
+<use Figure/05/video/8.jpg>
+Package pdftex.def Info: Figure/05/video/8.jpg used on input line 146.
+(pdftex.def)             Requested size: 102.43225pt x 120.06946pt.
+
+<Figure/05/video/9.jpg, id=522, 361.35pt x 422.57875pt>
+File: Figure/05/video/9.jpg Graphic file (type jpg)
+
+<use Figure/05/video/9.jpg>
+Package pdftex.def Info: Figure/05/video/9.jpg used on input line 150.
+(pdftex.def)             Requested size: 102.43225pt x 119.78494pt.
+
+<Figure/05/video/10.jpg, id=523, 361.35pt x 422.57875pt>
+File: Figure/05/video/10.jpg Graphic file (type jpg)
+
+<use Figure/05/video/10.jpg>
+Package pdftex.def Info: Figure/05/video/10.jpg used on input line 152.
+(pdftex.def)             Requested size: 102.43225pt x 119.78494pt.
+
+<Figure/05/video/11.jpg, id=524, 364.36125pt x 422.57875pt>
+File: Figure/05/video/11.jpg Graphic file (type jpg)
+
+<use Figure/05/video/11.jpg>
+Package pdftex.def Info: Figure/05/video/11.jpg used on input line 154.
+(pdftex.def)             Requested size: 102.43225pt x 118.79839pt.
+
+<Figure/05/video/12.jpg, id=525, 365.365pt x 422.57875pt>
+File: Figure/05/video/12.jpg Graphic file (type jpg)
+
+<use Figure/05/video/12.jpg>
+Package pdftex.def Info: Figure/05/video/12.jpg used on input line 156.
+(pdftex.def)             Requested size: 102.43225pt x 118.46954pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+e'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 163.
+
+) (./7-Detekce.tex [30 <./Figure/05/DvaSvazky.jpg> <./Figure/05/Optimum.jpg>]
+[31 <./Figure/05/video/1.jpg> <./Figure/05/video/2.jpg> <./Figure/05/video/3.jp
+g> <./Figure/05/video/4.jpg> <./Figure/05/video/5.jpg> <./Figure/05/video/6.jpg
+> <./Figure/05/video/7.jpg> <./Figure/05/video/8.jpg> <./Figure/05/video/9.jpg>
+ <./Figure/05/video/10.jpg> <./Figure/05/video/11.jpg> <./Figure/05/video/12.jp
+g>] [32
 
 
 ]
@@ -1169,13 +1273,13 @@ Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textring' on input line 25.
 
-<Figure/07/pasova_struktura.png, id=503, 1265.72874pt x 604.2575pt>
+<Figure/07/pasova_struktura.png, id=541, 1265.72874pt x 604.2575pt>
 File: Figure/07/pasova_struktura.png Graphic file (type png)
 
 <use Figure/07/pasova_struktura.png>
 Package pdftex.def Info: Figure/07/pasova_struktura.png used on input line 29.
 (pdftex.def)             Requested size: 426.79134pt x 203.7483pt.
- [31]
+ [33]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
@@ -1184,15 +1288,15 @@ Package hyperref Warning: Composite letter `\textasciicaron+e'
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./Figure/07/pasova_struktura.png (PNG copy)>]
-<Figure/07/depleted.png, id=522, 987.69pt x 769.87625pt>
+ [34 <./Figure/07/pasova_struktura.png (PNG copy)>]
+<Figure/07/depleted.png, id=559, 987.69pt x 769.87625pt>
 File: Figure/07/depleted.png Graphic file (type png)
 
 <use Figure/07/depleted.png>
 Package pdftex.def Info: Figure/07/depleted.png used on input line 50.
 (pdftex.def)             Requested size: 384.10959pt x 299.39297pt.
- [33 <./Figure/07/depleted.png>]
-<Figure/07/particle-detection.png, id=537, 766.865pt x 320.19624pt>
+ [35 <./Figure/07/depleted.png>]
+<Figure/07/particle-detection.png, id=574, 766.865pt x 320.19624pt>
 File: Figure/07/particle-detection.png Graphic file (type png)
 
 <use Figure/07/particle-detection.png>
@@ -1200,16 +1304,16 @@ Package pdftex.def Info: Figure/07/particle-detection.png used on input line 63
 .
 (pdftex.def)             Requested size: 426.79134pt x 178.20447pt.
 
-<Figure/07/pd_weightfield_mu.png, id=538, 623.91367pt x 351.3125pt>
+<Figure/07/pd_weightfield_mu.png, id=575, 623.91367pt x 351.3125pt>
 File: Figure/07/pd_weightfield_mu.png Graphic file (type png)
 
 <use Figure/07/pd_weightfield_mu.png>
 Package pdftex.def Info: Figure/07/pd_weightfield_mu.png used on input line 65.
 
 (pdftex.def)             Requested size: 426.79134pt x 240.31525pt.
- [34 <./Figure/07/particle-detection.png>] [35 <./Figure/07/pd_weightfield_mu.p
+ [36 <./Figure/07/particle-detection.png>] [37 <./Figure/07/pd_weightfield_mu.p
 ng>]
-<Figure/07/xchip03_mp.png, id=556, 1916.15875pt x 960.58875pt>
+<Figure/07/xchip03_mp.png, id=595, 1916.15875pt x 960.58875pt>
 File: Figure/07/xchip03_mp.png Graphic file (type png)
 
 <use Figure/07/xchip03_mp.png>
@@ -1218,17 +1322,17 @@ Package pdftex.def Info: Figure/07/xchip03_mp.png used on input line 83.
 
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
- [36
+ [38
 
- <./Figure/07/xchip03_mp.png>] <Figure/07/setup.png, id=566, 1975.38pt x 1375.1
+ <./Figure/07/xchip03_mp.png>] <Figure/07/setup.png, id=605, 1975.38pt x 1375.1
 375pt>
 File: Figure/07/setup.png Graphic file (type png)
 
 <use Figure/07/setup.png>
 Package pdftex.def Info: Figure/07/setup.png used on input line 87.
 (pdftex.def)             Requested size: 426.79134pt x 297.09662pt.
- [37 <./Figure/07/setup.png>]) (./7-Analyza.tex
-[38
+ [39 <./Figure/07/setup.png>]) (./7-Analyza.tex
+[40
 
 
 ]
@@ -1252,7 +1356,7 @@ Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 8.
 
-[39]
+[41]
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
@@ -1263,14 +1367,14 @@ Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 29.
 
-<Figure/response.pdf, id=583, 569.12625pt x 320.19624pt>
+<Figure/response.pdf, id=620, 569.12625pt x 320.19624pt>
 File: Figure/response.pdf Graphic file (type pdf)
 
 <use Figure/response.pdf>
 Package pdftex.def Info: Figure/response.pdf used on input line 39.
 (pdftex.def)             Requested size: 398.38567pt x 224.13583pt.
 
-<Figure/100_05keV__15_27_44_0.jpg, id=585, 562.1pt x 421.575pt>
+<Figure/100_05keV__15_27_44_0.jpg, id=622, 562.1pt x 421.575pt>
 File: Figure/100_05keV__15_27_44_0.jpg Graphic file (type jpg)
 
 <use Figure/100_05keV__15_27_44_0.jpg>
@@ -1278,16 +1382,16 @@ Package pdftex.def Info: Figure/100_05keV__15_27_44_0.jpg used on input line 49
 .
 (pdftex.def)             Requested size: 200.0pt x 149.99788pt.
 
-<Figure/100_15keV__15_32_05_0.jpg, id=586, 562.1pt x 421.575pt>
+<Figure/100_15keV__15_32_05_0.jpg, id=623, 562.1pt x 421.575pt>
 File: Figure/100_15keV__15_32_05_0.jpg Graphic file (type jpg)
 
 <use Figure/100_15keV__15_32_05_0.jpg>
 Package pdftex.def Info: Figure/100_15keV__15_32_05_0.jpg used on input line 51
 .
 (pdftex.def)             Requested size: 200.0pt x 149.99788pt.
- [40] [41 <./Figure/response.pdf, page is rotated 90 degrees> <./Figure/100_05k
+ [42] [43 <./Figure/response.pdf, page is rotated 90 degrees> <./Figure/100_05k
 eV__15_27_44_0.jpg> <./Figure/100_15keV__15_32_05_0.jpg>] <Figure/calibration.p
-df, id=639, 569.12625pt x 292.09125pt>
+df, id=677, 569.12625pt x 292.09125pt>
 File: Figure/calibration.pdf Graphic file (type pdf)
 
 <use Figure/calibration.pdf>
@@ -1298,14 +1402,14 @@ Overfull \hbox (56.96826pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-<Figure/spektrum.png, id=640, 1028.84375pt x 591.20876pt>
+<Figure/spektrum.png, id=678, 1028.84375pt x 591.20876pt>
 File: Figure/spektrum.png Graphic file (type png)
 
 <use Figure/spektrum.png>
 Package pdftex.def Info: Figure/spektrum.png used on input line 70.
 (pdftex.def)             Requested size: 411.53021pt x 236.47931pt.
-) [42 <./Figure/calibration.pdf, page is rotated 90 degrees>] [43 <./Figure/spe
-ktrum.png>] (./main.bbl [44
+) [44 <./Figure/calibration.pdf, page is rotated 90 degrees>] [45 <./Figure/spe
+ktrum.png>] (./main.bbl [46
 
 
 ]
@@ -1322,26 +1426,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45])
+ [47])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
 
-[46]
+[48]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CCC195C1FF8F8272BF67B0D3569CD30A;2101.
+(rerunfilecheck)             Checksum: FFC4F5D2055CC7683D393795AB5A8DB0;2103.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 11326 strings out of 493029
- 163672 string characters out of 6136233
- 279142 words of memory out of 5000000
- 14485 multiletter control sequences out of 15000+600000
- 18961 words of font info for 43 fonts, out of 8000000 for 9000
+ 11417 strings out of 493029
+ 165779 string characters out of 6136233
+ 280960 words of memory out of 5000000
+ 14554 multiletter control sequences out of 15000+600000
+ 19274 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,11n,43p,1518b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,11n,43p,1510b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -1362,11 +1466,11 @@ public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
 0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share
 /texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/p
 ublic/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1
-200.pfb>
-Output written on main.pdf (46 pages, 12298931 bytes).
+200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (48 pages, 18284007 bytes).
 PDF statistics:
- 817 PDF objects out of 1000 (max. 8388607)
- 638 compressed objects within 7 object streams
- 146 named destinations out of 1000 (max. 500000)
- 409 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 857 PDF objects out of 1000 (max. 8388607)
+ 663 compressed objects within 7 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 474 words of extra memory for PDF output out of 10000 (max. 10000000)
 

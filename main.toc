@@ -14,21 +14,21 @@
 \contentsline {chapter}{\numberline {3}Zdroj elektron\IeC {\r u}, ES40-PS}{19}{chapter.3}
 \contentsline {chapter}{\numberline {4}Fokusace - teorie}{23}{chapter.4}
 \contentsline {chapter}{\numberline {5}Simulace fokusa\IeC {\v c}n\IeC {\'\i } soustavy}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}Koncept einzel lens}{25}{section.5.1}
-\contentsline {section}{\numberline {5.2}Vlastn\IeC {\'\i } elektronov\IeC {\'e} d\IeC {\v e}lo}{27}{section.5.2}
-\contentsline {section}{\numberline {5.3}Urychlov\IeC {\'a}n\IeC {\'\i } svazku z pr\IeC {\r u}myslov\IeC {\'e}ho d\IeC {\v e}la}{28}{section.5.3}
-\contentsline {section}{\numberline {5.4}Zkou\IeC {\v s}ka d\IeC {\v e}la se st\IeC {\'\i }n\IeC {\'\i }tkem}{29}{section.5.4}
-\contentsline {section}{\numberline {5.5}Z\IeC {\'a}v\IeC {\v e}r}{29}{section.5.5}
-\contentsline {chapter}{\numberline {6}Detekce}{31}{chapter.6}
-\contentsline {section}{\numberline {6.1}Detek\IeC {\v c}n\IeC {\'\i } technologie}{31}{section.6.1}
-\contentsline {section}{\numberline {6.2}Principy polovodi\IeC {\v c}ov\IeC {\'y}ch detektor\IeC {\r u}}{31}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}P\IeC {\'a}sov\IeC {\'a} struktura}{31}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Vypr\IeC {\'a}zdn\IeC {\v e}n\IeC {\'a} oblast}{33}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Vznik sign\IeC {\'a}lu}{33}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Pixelov\IeC {\'e} detektory}{36}{section.6.3}
-\contentsline {section}{\numberline {6.4}X-CHIP03}{36}{section.6.4}
-\contentsline {chapter}{Experiment\IeC {\'a}ln\IeC {\'\i } set-up a anal\IeC {\'y}za v\IeC {\'y}sledk\IeC {\r u}}{39}{chapter*.26}
-\contentsline {section}{\numberline {6.5}Metodika m\IeC {\v e}\IeC {\v r}en\IeC {\'\i }}{39}{section.6.5}
-\contentsline {section}{\numberline {6.6}Postup m\IeC {\v e}\IeC {\v r}en\IeC {\'\i }}{40}{section.6.6}
-\contentsline {section}{\numberline {6.7}V\IeC {\'y}sledky}{40}{section.6.7}
-\contentsline {chapter}{Reference}{44}{figure.caption.31}
+\contentsline {section}{\numberline {5.1}Einzel lens}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}Vlastn\IeC {\'\i } elektronov\IeC {\'e} d\IeC {\v e}lo}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Urychlov\IeC {\'a}n\IeC {\'\i } svazku z pr\IeC {\r u}myslov\IeC {\'e}ho d\IeC {\v e}la}{27}{section.5.3}
+\contentsline {section}{\numberline {5.4}Zkou\IeC {\v s}ka d\IeC {\v e}la se st\IeC {\'\i }n\IeC {\'\i }tkem}{28}{section.5.4}
+\contentsline {section}{\numberline {5.5}Diskuze a z\IeC {\'a}v\IeC {\v e}r}{30}{section.5.5}
+\contentsline {chapter}{\numberline {6}Detekce}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Detek\IeC {\v c}n\IeC {\'\i } technologie}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Principy polovodi\IeC {\v c}ov\IeC {\'y}ch detektor\IeC {\r u}}{33}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}P\IeC {\'a}sov\IeC {\'a} struktura}{33}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Vypr\IeC {\'a}zdn\IeC {\v e}n\IeC {\'a} oblast}{35}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Vznik sign\IeC {\'a}lu}{35}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Pixelov\IeC {\'e} detektory}{38}{section.6.3}
+\contentsline {section}{\numberline {6.4}X-CHIP03}{38}{section.6.4}
+\contentsline {chapter}{Experiment\IeC {\'a}ln\IeC {\'\i } set-up a anal\IeC {\'y}za v\IeC {\'y}sledk\IeC {\r u}}{41}{chapter*.27}
+\contentsline {section}{\numberline {6.5}Metodika m\IeC {\v e}\IeC {\v r}en\IeC {\'\i }}{41}{section.6.5}
+\contentsline {section}{\numberline {6.6}Postup m\IeC {\v e}\IeC {\v r}en\IeC {\'\i }}{42}{section.6.6}
+\contentsline {section}{\numberline {6.7}V\IeC {\'y}sledky}{42}{section.6.7}
+\contentsline {chapter}{Reference}{46}{figure.caption.32}
