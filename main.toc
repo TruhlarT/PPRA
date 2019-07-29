@@ -1,4 +1,5 @@
 \select@language {czech}
+<<<<<<< HEAD
 \contentsline {chapter}{\IeC {\'U}vod}{9}{chapter*.4}
 \contentsline {chapter}{\numberline {1}Elektrony a vakuum}{11}{chapter.1}
 \contentsline {section}{\numberline {1.1}Elektron}{11}{section.1.1}
@@ -29,3 +30,38 @@
 \contentsline {section}{\numberline {6.3}Pixelov\IeC {\'e} detektory}{40}{section.6.3}
 \contentsline {section}{\numberline {6.4}X-CHIP03}{40}{section.6.4}
 \contentsline {chapter}{Reference}{42}{figure.caption.28}
+=======
+\contentsline {chapter}{\numberline {1}Elektrony a vakuum}{9}{chapter.1}
+\contentsline {section}{\numberline {1.1}Elektron}{9}{section.1.1}
+\contentsline {section}{\numberline {1.2}Katodov\IeC {\'e} z\IeC {\'a}\IeC {\v r}en\IeC {\'\i }}{9}{section.1.2}
+\contentsline {section}{\numberline {1.3}Elektrick\IeC {\'y} proud ve vakuu}{11}{section.1.3}
+\contentsline {chapter}{\numberline {2}Elektrick\IeC {\'e} v\IeC {\'y}boje}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Teorie elektrick\IeC {\'e}ho v\IeC {\'y}boje}{13}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Samostatn\IeC {\'e} v\IeC {\'y}boje}{13}{subsection.2.1.1}
+\contentsline {subsubsection}{Doutnav\IeC {\'y} v\IeC {\'y}boj}{14}{section*.6}
+\contentsline {subsubsection}{Jiskrov\IeC {\'y} v\IeC {\'y}boj}{15}{section*.7}
+\contentsline {section}{\numberline {2.2}P\IeC {\v r}iveden\IeC {\'\i } vodi\IeC {\v c}\IeC {\r u} k elektrod\IeC {\'a}m}{15}{section.2.2}
+\contentsline {section}{\numberline {2.3}Pozorov\IeC {\'a}n\IeC {\'\i } a diskuse}{16}{section.2.3}
+\contentsline {section}{\numberline {2.4}Z\IeC {\'a}v\IeC {\v e}r}{17}{section.2.4}
+\contentsline {chapter}{\numberline {3}Zdroj elektron\IeC {\r u}, ES40-PS}{19}{chapter.3}
+\contentsline {chapter}{\numberline {4}Fokusace - teorie}{23}{chapter.4}
+\contentsline {chapter}{\numberline {5}Simulace fokusa\IeC {\v c}n\IeC {\'\i } soustavy}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Einzel lens}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}Vlastn\IeC {\'\i } elektronov\IeC {\'e} d\IeC {\v e}lo}{26}{section.5.2}
+\contentsline {section}{\numberline {5.3}Urychlov\IeC {\'a}n\IeC {\'\i } svazku z pr\IeC {\r u}myslov\IeC {\'e}ho d\IeC {\v e}la}{27}{section.5.3}
+\contentsline {section}{\numberline {5.4}Zkou\IeC {\v s}ka d\IeC {\v e}la se st\IeC {\'\i }n\IeC {\'\i }tkem}{28}{section.5.4}
+\contentsline {section}{\numberline {5.5}Diskuze a z\IeC {\'a}v\IeC {\v e}r}{30}{section.5.5}
+\contentsline {chapter}{\numberline {6}Detekce}{33}{chapter.6}
+\contentsline {section}{\numberline {6.1}Detek\IeC {\v c}n\IeC {\'\i } technologie}{33}{section.6.1}
+\contentsline {section}{\numberline {6.2}Principy polovodi\IeC {\v c}ov\IeC {\'y}ch detektor\IeC {\r u}}{33}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}P\IeC {\'a}sov\IeC {\'a} struktura}{33}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Vypr\IeC {\'a}zdn\IeC {\v e}n\IeC {\'a} oblast}{35}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Vznik sign\IeC {\'a}lu}{35}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Pixelov\IeC {\'e} detektory}{38}{section.6.3}
+\contentsline {section}{\numberline {6.4}X-CHIP03}{38}{section.6.4}
+\contentsline {chapter}{Experiment\IeC {\'a}ln\IeC {\'\i } set-up a anal\IeC {\'y}za v\IeC {\'y}sledk\IeC {\r u}}{41}{chapter*.27}
+\contentsline {section}{\numberline {6.5}Metodika m\IeC {\v e}\IeC {\v r}en\IeC {\'\i }}{41}{section.6.5}
+\contentsline {section}{\numberline {6.6}Postup m\IeC {\v e}\IeC {\v r}en\IeC {\'\i }}{42}{section.6.6}
+\contentsline {section}{\numberline {6.7}V\IeC {\'y}sledky}{42}{section.6.7}
+\contentsline {chapter}{Reference}{46}{figure.caption.32}
+>>>>>>> b1d5f9b368f80ad47725bee044f2baa0e698eb9c

@@ -11,6 +11,7 @@ Warning--empty booktitle in Plyny
 Warning--empty year in Plyny
 Warning--empty journal in Bozhko
 Warning--empty journal in Manual
+<<<<<<< HEAD
 You've used 19 entries,
             1876 wiz_defined-function locations,
             588 strings with 5959 characters,
@@ -41,15 +42,53 @@ preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 118
+=======
+You've used 16 entries,
+            1876 wiz_defined-function locations,
+            571 strings with 5762 characters,
+and the built_in function-call counts, 3213 in all, are:
+= -- 308
+> -- 106
+< -- 0
++ -- 44
+- -- 28
+* -- 195
+:= -- 455
+add.period$ -- 20
+call.type$ -- 16
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 176
+empty$ -- 345
+format.name$ -- 28
+if$ -- 796
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 17
+newline$ -- 57
+num.names$ -- 14
+pop$ -- 75
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 99
+>>>>>>> b1d5f9b368f80ad47725bee044f2baa0e698eb9c
 stack$ -- 0
-substring$ -- 166
-swap$ -- 64
+substring$ -- 138
+swap$ -- 54
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
+<<<<<<< HEAD
 while$ -- 30
 width$ -- 21
 write$ -- 166
+=======
+while$ -- 26
+width$ -- 18
+write$ -- 140
+>>>>>>> b1d5f9b368f80ad47725bee044f2baa0e698eb9c
 (There were 7 warnings)
