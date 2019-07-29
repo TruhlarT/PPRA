@@ -16,9 +16,9 @@
 \contentsline {chapter}{\numberline {4}Fokusace - teorie}{25}{chapter.4}
 \contentsline {chapter}{\numberline {5}Simulace fokusa\IeC {\v c}n\IeC {\'\i } soustavy}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Einzel lens}{27}{section.5.1}
-\contentsline {section}{\numberline {5.2}Vlastn\IeC {\'\i } elektronov\IeC {\'e} d\IeC {\v e}lo}{28}{section.5.2}
-\contentsline {section}{\numberline {5.3}Urychlov\IeC {\'a}n\IeC {\'\i } svazku z pr\IeC {\r u}myslov\IeC {\'e}ho d\IeC {\v e}la}{29}{section.5.3}
-\contentsline {section}{\numberline {5.4}Zkou\IeC {\v s}ka d\IeC {\v e}la se st\IeC {\'\i }n\IeC {\'\i }tkem}{30}{section.5.4}
+\contentsline {section}{\numberline {5.2}Vlastn\IeC {\'\i } elektronov\IeC {\'e} d\IeC {\v e}lo}{29}{section.5.2}
+\contentsline {section}{\numberline {5.3}Urychlov\IeC {\'a}n\IeC {\'\i } svazku z pr\IeC {\r u}myslov\IeC {\'e}ho d\IeC {\v e}la}{30}{section.5.3}
+\contentsline {section}{\numberline {5.4}Zkou\IeC {\v s}ka d\IeC {\v e}la se st\IeC {\'\i }n\IeC {\'\i }tkem}{31}{section.5.4}
 \contentsline {section}{\numberline {5.5}Diskuze a z\IeC {\'a}v\IeC {\v e}r}{32}{section.5.5}
 \contentsline {chapter}{\numberline {6}Detekce}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}Detek\IeC {\v c}n\IeC {\'\i } technologie}{35}{section.6.1}

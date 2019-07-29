@@ -1,14 +1,14 @@
 \newpage
 \chapter{Simulace fokusační soustavy}
 
-Úvod
+Ačkoliv se dalo očekávat, že svazek z elektronového děla bude dostatečné fokusovaný, rozhodli jsme se sestrojit fokusovací soustavu, která by umožňovala manipulovat s vlastnostmi svazku. Jelikož se v průběhu vývoje děla ukázalo, že bude pravděpodobně třeba svazek i urychlit, přešel původní koncept fokusovací soustavy elektrostatických čoček k novému, který by umožňoval také zvyšovat energii elektronů. Postupný vývoj návrhu soustavy motivovaný simulacemi v programu SIMION~\cite{05Simion} je popsán v této kapitole.
 
 \section{Einzel lens}
 
 %Označení einzel lens se používá pro soustavu typicky tří cylindrických elektrostatických elektrod v řadě za sebou. Soustava slouží k fokusování iontového svazku ve vakuu pomocí specifického elektrického pole, které se běžně vytváří přivedením stejného napětí na krají dvě elektrody a odlišného napětí na prostřední elektrodu. Regulace napětí na prostřední elektrodě je pak dostačující ke kontrolování fokusačních vlastností aparatury, které ovšem celkově závisí i na geometrii elektrod a energii kontrolovaného svazku. Polarita použitého napětí se odvíjí od náboje fokusovaných iontů. V principu je totiž třeba vytvořit takový potenciálový rozdíl mezi elektrodami, aby mezi první a druhou elektrodou ionty překonávaly potenciálový kopec a mezi druhou a třetí elektrodou se vracely k nižšímu potenciálu. Potom vzhledem k zakřivení elektrického pole, které je dané geometrií elektrod, se trajektorie iontů nejprve odchýlý od směru svazku a zpomalý a následně jsou strženy zpět k ose svazku, aby se protly v jednom bodě, je-li poměr mezi napětími krajní a prostřední elektrody vhodně nastavený. To je možné díky tomu, že čím dále je konkrétní iont od osy svazku, tím více na něj působí zakřivení válcově symetrického pole. Energie svazku na výstupu by pak měla být nezměněna právě díky stejným hodnotám napětí na krajních elektrodách.\\
 Označení einzel lens se používá pro soustavu typicky tří cylindrických elektrostatických elektrod v řadě za sebou, která byla popsána v předchozí kapitole. Původní záměr byl využít tuto soustavu k manipulaci elektronového svazku z děla CRT obrazovky.
 %Na Obr. \ref{05schemaEinzelLens} lze vidět schématický nákres čočky, který ilustruje výše popsaný způsob fokusace.
-Princip fokusace je demonstrovaný na Obr. \ref{05simulaceEinzelLens}, na kterém je výsledek simulace z programu SIMION, který znázorňuje potenciálové hladiny mezi elektrodami v rovině xy. Simulovaná konfigurace z obrázku má následující parametry: válcové elektrody mají průměr $d=35$~mm, krajní elektrody jsou dlouhé $l_o = 2$~mm, prostřední měří, $l_i = 26$~mm, tloušťka stěny válce je $t=1$~mm, napětí na elektrodách jsou $U_o = 5$~kV, $U_i = -18$ kV, energie svazku u zdroje je $E = 20$~keV. Svazek je nastaven tak, aby od zdroje divergoval. Tuto divergenci fokusační soustava zastavuje a směřuje trajektorie do vzdáleného ohniska. Na Obr. \ref{05simulaceEinzelLensPotencial} je pak výše potenciálové hladiny reprezentována třetí souřadnicí, což může pomoci k vytvoření intuitivní představy o zakřivení elektrického pole, které má vliv na průběhu fokusace.\\
+Princip fokusace je demonstrovaný na Obr.~\ref{05simulaceEinzelLens}, na kterém je výsledek simulace z programu SIMION, který znázorňuje potenciálové hladiny mezi elektrodami v rovině xy. Simulovaná konfigurace z obrázku má následující parametry: válcové elektrody mají průměr $d=35$~mm, krajní elektrody jsou dlouhé $l_o = 2$~mm, prostřední měří, $l_i = 26$~mm, tloušťka stěny válce je $t=1$~mm, napětí na elektrodách jsou $U_o = 5$~kV, $U_i = -18$ kV, energie svazku u zdroje je $E = 20$~keV. Svazek je nastaven tak, aby od zdroje divergoval. Tuto divergenci fokusační soustava zastavuje a směřuje trajektorie do vzdáleného ohniska. Na Obr.~\ref{05simulaceEinzelLensPotencial} je pak výše potenciálové hladiny reprezentována třetí souřadnicí, což může pomoci k vytvoření intuitivní představy o zakřivení elektrického pole, které má vliv na průběhu fokusace.\\
 
 %\begin{figure}[htbp!]
 %\centering
@@ -41,12 +41,12 @@ Urychlování a fokusování elektronového děla měly zajišťovat čtyři vá
 	\item jako elektrody měly sloužit válečky nařezané z měděné trubky o průměru 3 cm různých délek
 \end{itemize}
 
-Nastavení napětí na elektrodách bylo motivováno myšlenkou, že elektrony, o nichž jsme předpokládali, že budou vylétávat z wolframového vlákna izotropně ve všech směrech s energiemi v řádech eV, je nejprve třeba urychlit v požadovaném směru a následně fokusovat a zároveň stanovit jejich finální energii, která měla původně dosahovat hodnot $~80$~keV. Proto napětí mezi první a druhou elektrodou vytvářela potenciálovou jámu, která měla elektrony strhávat správným směrem. Poslední tři elektrody pak měly společně tvořit soustavu podobnou einzel lens s tím rozdílem, že napětí na poslední elektrodě bude to nejvyšší a elektrony budou tak v poslední fázi fokusování zároveň urychleny na co nejvyšší energii. Na Obr. \ref{05simulaceVlastniDelo} je výsledek simulace navrhované konfigurace s těmito parametry:
+Nastavení napětí na elektrodách bylo motivováno myšlenkou, že elektrony, o nichž jsme předpokládali, že budou vylétávat z wolframového vlákna izotropně ve všech směrech s energiemi v řádech eV, je nejprve třeba urychlit v požadovaném směru a následně fokusovat a zároveň stanovit jejich finální energii, která měla původně dosahovat hodnot $~80$~keV. Proto napětí mezi první a druhou elektrodou vytvářela potenciálovou jámu, která měla elektrony strhávat správným směrem. Poslední tři elektrody pak měly společně tvořit soustavu podobnou einzel lens s tím rozdílem, že napětí na poslední elektrodě bude to nejvyšší a elektrony budou tak v poslední fázi fokusování zároveň urychleny na co nejvyšší energii. Na Obr.~\ref{05simulaceVlastniDelo} je výsledek simulace navrhované konfigurace s těmito parametry:
 \begin{itemize}
-	\item Vzdálenost mezi elektrodami: $\Delta x = 2$ mm
-	\item Geometrie elektrod: $d = 30$ mm, $l_0 = 40$ mm, $l_1 = 24$ mm, $l_2 = 26$ mm, $l_3 = 30$ mm
-	\item Napětí na elektrodách: $U_1 = 1$ kV, $U_2 = 10$ kV, $U_3 = 1$ kV, $U_4 = 60$ kV
-	\item Zdroj elektronů: bod umístěný 5 mm před první elektrodou, elektrony vylétávajícími do všech směrů s $E = 20$ eV
+	\item Vzdálenost mezi elektrodami: $\Delta x = 2$~mm
+	\item Geometrie elektrod: $d = 30$ mm, $l_0 = 40$~mm, $l_1 = 24$~mm, $l_2 = 26$~mm, $l_3 = 30$~mm
+	\item Napětí na elektrodách: $U_1 = 1$ kV, $U_2 = 10$~kV, $U_3 = 1$~kV, $U_4 = 60$~kV
+	\item Zdroj elektronů: bod umístěný 5 mm před první elektrodou, elektrony vylétávajícími do všech směrů s $E = 20$~eV
 \end{itemize}
 
 \begin{figure}[htbp!]
@@ -69,15 +69,15 @@ Konfiguraci lze ještě vylepšit jednoduše tím, že se wolframové vlákno um
 
 Zakoupené elektronové dělo bylo od výroby dostatečně dobře fokusované. Nejmenší možný průměr svazku uvedený výrobcem byl $d = 120$~$\mu$m ve vzdálenosti $l = 56$~mm. Proto fokusační soustava ztrácela svůj význam. Přesto však bylo třeba pro účely detekce svazek urychlit. Maximální energie svazku byla totiž $E = 5$~keV. Nakonec i možnost posouvat ohnisko svazku a tak jej fokusovat nebo defokusovat nezávisle na nastavení na průmylsovém děle se jevila jako zajímavá. Proto se finální fokusovací soustava skládala opět ze čtyř elektrod.\\
 
-Elektrody byly tentokrát umístěny ve větší vzdálenosti od sebe, abychom omezili pravděpodobnost probíjení mezi nimy, ačkoliv jsme zcela s jistotou nevěděli, zdali k němu docházelo. Svazek z děla je v následujích simulacích reprezentován rovnoběžnými trajektoriemi dvou elektronů, které jej hypoteticky ohraničují. Průměr svazku je $d = 1$ mm a energie $E = 5$ keV. Ostatní parametry finální konfigurace jsou následující:
+Elektrody byly tentokrát umístěny ve větší vzdálenosti od sebe, abychom omezili pravděpodobnost probíjení mezi nimy, ačkoliv jsme zcela s jistotou nevěděli, zdali k němu docházelo. Svazek z děla je v následujích simulacích reprezentován rovnoběžnými trajektoriemi dvou elektronů, které jej hypoteticky ohraničují. Průměr svazku je $d = 1$ mm a energie $E = 5$~keV. Ostatní parametry finální konfigurace jsou následující:
 \begin{itemize}
 	\item Vzdálenost mezi elektrodami: $\Delta x = 2$~mm
 	\item Geometrie elektrod: $d = 30$~mm, $l_0 = 40$ mm, $l_1 = 24$ mm, $l_2 = 26$ mm, $l_3 = 30$ mm
 	\item Napětí na elektrodách:
 	\begin{enumerate}
-		\item $U_1 = 1$ kV, $U_2 = 5$ kV, $U_3 = 1$ kV, $U_4 = 18$ kV
-		\item $U_1 = 1$ kV, $U_2 = 15$ kV, $U_3 = 1$ kV, $U_4 = 18$ kV
-		\item $U_1 = 1$ kV, $U_2 = 1$ kV, $U_3 = 1$ kV, $U_4 = 18$ kV
+		\item $U_1 = 1$ kV, $U_2 = 5$ kV, $U_3 = 1$ kV, $U_4 = 18$~kV
+		\item $U_1 = 1$ kV, $U_2 = 15$ kV, $U_3 = 1$ kV, $U_4 = 18$~kV
+		\item $U_1 = 1$ kV, $U_2 = 1$ kV, $U_3 = 1$ kV, $U_4 = 18$~kV
 	\end{enumerate}
 \end{itemize}
 
@@ -98,7 +98,7 @@ Ačkoliv to není z Obr. \ref{05simulaceFinalniKonfigurace} vzhledem k nepoměru
 
 \section{Zkouška děla se stínítkem}
 
-Vliv elektrického pole fokusační soustavy jsme pozorovali pomocí fluerescenčního stínítka, které jsme umístili ve vzdálenosti $x = 195$ mm od děla. Rozhodli jsme se nejprve vyzkoušet, jak lze vlastnosti profilu svazku měnit nastavováním parametrů průmyslového děla. Vertikální a horizontální výchylky jsme nastavili na $PX = PY = 0$, horizontální i vertikální oblast skenu také vynulovali $dX = dY = 0$. Urychlovací napětí jsme nastavili na $U = 3$ kV a emisní proud na $I = 150$ $\mu$A. Dále jsme měnili fokusaci děla a Wehneltovo napětí a pozorovali, jak se změny projeví na stínítku. Jak by se dalo očekávat, při změně fokusovacího napětí se patřičně zúžoval nebo rozšiřoval průměr svazku. Změna Wehneltova napětí měla za následek rozdvojení svazku na dva, přičemž v závislosti na hodnotě napětí se profily dvou svazků překrývaly nebo vzdalovaly, jak je vidět na Obr. \ref{05dvaSvazky}. Hledali jsme nastavení s optimálním profilem svazku, abychom s ním mohli vyzkoušet fokusaci pomocí našich elektrod. Dospěli jsme k hodnotám Wehneltova napětí $U_W = 70$ V a fokusace 60\%. Profil svazku při tomto nastavení ukazuje Obr. \ref{05optimum}.\\
+Vliv elektrického pole fokusační soustavy jsme pozorovali pomocí fluerescenčního stínítka, které jsme umístili ve vzdálenosti $x = 195$ mm od děla. Rozhodli jsme se nejprve vyzkoušet, jak lze vlastnosti profilu svazku měnit nastavováním parametrů průmyslového děla. Vertikální a horizontální výchylky jsme nastavili na $PX = PY = 0$, horizontální i vertikální oblast skenu také vynulovali $dX = dY = 0$. Urychlovací napětí jsme nastavili na $U = 3$ kV a emisní proud na $I = 150$ $\mu$A. Dále jsme měnili fokusaci děla a Wehneltovo napětí a pozorovali, jak se změny projeví na stínítku. Jak by se dalo očekávat, při změně fokusovacího napětí se patřičně zúžoval nebo rozšiřoval průměr svazku. Změna Wehneltova napětí měla za následek rozdvojení svazku na dva, přičemž v závislosti na hodnotě napětí se profily dvou svazků překrývaly nebo vzdalovaly, jak je vidět na Obr. \ref{05dvaSvazky}. Hledali jsme nastavení s optimálním profilem svazku, abychom s ním mohli vyzkoušet fokusaci pomocí našich elektrod. Dospěli jsme k hodnotám Wehneltova napětí $U_W = 70$~V a fokusace 60\%. Profil svazku při tomto nastavení ukazuje Obr.~\ref{05optimum}.\\
 
 \begin{figure}[h!]
 \centering
@@ -122,7 +122,11 @@ Vliv elektrického pole fokusační soustavy jsme pozorovali pomocí fluerescen�
 \end{minipage}
 \end{figure}
 
-Po dosažení optimálního profilu svazku jsme zkoušeli připojit elektrody fokusovací soustavy ke zdrojům napětí podle návrhu. Ukázalo se ovšem, že změny napětí se na profilu svazku neprojevovali, jak jsme předpokládali. Byli jsme schopni dosáhnout pouze mírného vychýlení svazku. Otestovali jsme proto ještě několik různých kombinací polarit napětí na elektrodách. Když jsme zapojili pouze první tři elektrody a přivedli na ně napětí ...., byli jsme schopni regulací napětí na x.té elektrodě měnit průměr profilu svazku, jak ukazuje série snímků \ref{05video}. Video z fokusace je dostupné na \url{https://youtu.be/d4yXCXhcra0}.\\ 
+Po dosažení optimálního profilu svazku jsme zkoušeli připojit elektrody fokusovací soustavy ke zdrojům napětí podle návrhu. Ukázalo se ovšem, že změny napětí se na profilu svazku neprojevovali, jak jsme předpokládali. Byli jsme schopni dosáhnout pouze mírného vychýlení svazku. Otestovali jsme proto ještě několik různých kombinací polarit napětí na elektrodách. Při zapojení pouze prvních třech elektrod s napětím postupně $U_1 = +3.5$ kV, $U_2 = +4$ kV, $U_3 = -3.5$ kV, bylo možné regulací napětí $U_2$ na druhé elektrodě měnit průměr profilu svazku, jak ukazuje série snímků \ref{05video}, přičemž při napětí $U_2 = 4$ kV byl svazek nejlépe fokusován. Video z fokusace je dostupné na \url{https://youtu.be/d4yXCXhcra0}.
+
+\section{Diskuze a závěr}
+
+Ačkoliv byly postupně ve vakuové komoře vyzkoušeny různé koncepty fokusačně-urychlovací soustavy elektrod, žádný z nich nefungoval podle simulace z programu SIMION. Přestože se nám nakonec podařilo najít konfiguraci napětí, při které jsme byli schopni regulací napětí na jedné elektrodě měnit fokusaci svazku, nejsme schopni funkčnost této soustavy kvalitativně vysvětlit. Neočekávané chování má možná vysvětlení v tom, že jsme ve skutečnosti přiváděli na elektrody jiné napětí než jsme se domnívali. To by mohlo být například způsobené tím, že zdroje ukazují relativní napětí mezi kladnou a zápornou zdířkou, tudíž vůči zemi mohlo být na elektrodách zcela jiné napětí. Odlišné chování zdrojů můžě potvrzovat i fakt, že při prohození zdrojů u poslední testované konfigurace a nastavení stejných napětí fokusační soustava fungovala rozdílně.\\
 
 \begin{figure}[h!]
 \centering
@@ -159,7 +163,3 @@ Po dosažení optimálního profilu svazku jsme zkoušeli připojit elektrody fo
 \caption{Záznam fokusace svazku testovací fokusovací soustavou.}
 \label{05video}
 \end{figure}
-
-\section{Diskuze a závěr}
-
-Diskuze a závěr

@@ -5,42 +5,42 @@ The style file: ieeetr.bst
 Database file #1: bibliografie.bib
 Warning--entry type for "edu-techmania" isn't style-file defined
 --line 65 of file bibliografie.bib
+Warning--empty year in xchip03
 Warning--empty author in Plyny
 Warning--empty booktitle in Plyny
 Warning--empty year in Plyny
 Warning--empty journal in Bozhko
 Warning--empty journal in Manual
-Warning--empty year in xchip03
-You've used 18 entries,
+You've used 19 entries,
             1876 wiz_defined-function locations,
-            584 strings with 5933 characters,
-and the built_in function-call counts, 3664 in all, are:
-= -- 356
-> -- 114
+            588 strings with 5959 characters,
+and the built_in function-call counts, 3767 in all, are:
+= -- 365
+> -- 115
 < -- 0
-+ -- 48
++ -- 49
 - -- 30
-* -- 221
-:= -- 515
-add.period$ -- 23
-call.type$ -- 18
-change.case$ -- 14
+* -- 226
+:= -- 524
+add.period$ -- 24
+call.type$ -- 19
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 202
-empty$ -- 395
+cite$ -- 25
+duplicate$ -- 206
+empty$ -- 413
 format.name$ -- 30
-if$ -- 913
+if$ -- 942
 int.to.chr$ -- 0
-int.to.str$ -- 18
+int.to.str$ -- 19
 missing$ -- 20
-newline$ -- 64
+newline$ -- 67
 num.names$ -- 16
-pop$ -- 82
+pop$ -- 90
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 114
+skip$ -- 118
 stack$ -- 0
 substring$ -- 166
 swap$ -- 64
@@ -50,6 +50,6 @@ top$ -- 0
 type$ -- 0
 warning$ -- 6
 while$ -- 30
-width$ -- 20
-write$ -- 160
+width$ -- 21
+write$ -- 166
 (There were 7 warnings)
