@@ -1,54 +1,21 @@
 \begin{thebibliography}{10}
 
-\bibitem{lutz1999semiconductor}
-G.~Lutz, {\em Semiconductor Radiation Detectors: Device Physics}.
-\newblock Springer, 2007.
-<<<<<<< HEAD
+\bibitem{coldems}
+R.~Amitava, ``{Electronic Emission \& Electron Guns},'' p.~6, 2010.
 
-\bibitem{spieler2005semiconductor_detector_systems}
-H.~Spieler, {\em Semiconductor Detector Systems (Series on Semiconductor
-  Science and Technology)}.
-\newblock Oxford University Press, 2005.
+\bibitem{zdrojel}
+NPTEL, ``{Electron microscopy }.''
+\newblock \\ https://nptel.ac.in/courses/102103044/module3/lec17/3.html.
 
-\bibitem{2015weightfield}
-F.~Cenna, N.~Cartiglia, M.~Friedl, B.~Kolbinger, H.-W. Sadrozinski, A.~Seiden,
-  A.~Zatserklyaniy, and A.~Zatserklyaniy, ``Weightfield2: A fast simulator for
-  silicon and diamond solid state detector,'' {\em Nuclear Instruments and
-  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
-  and Associated Equipment}, vol.~796, pp.~149 -- 153, 2015.
-\newblock Proceedings of the 10th International Conference on Radiation Effects
-  on Semiconductor Materials Detectors and Devices.
+\bibitem{zdrojwolf}
+SIMION, ``Ion and electron optics simulator,'' tech. rep.
 
-\bibitem{xchip03}
-M.~Havranek {\em et~al.}, ``X-chip-03 – soi maps sensor with hit counting and
-  adc mode,'' {\em manuscript in preparation}.
-
-\bibitem{PanMysak}
-P.~Mysak, {\em Koucor v bote}.
-\newblock New York: Springer, 2002.
-=======
->>>>>>> b1d5f9b368f80ad47725bee044f2baa0e698eb9c
-
-\bibitem{spieler2005semiconductor_detector_systems}
-H.~Spieler, {\em Semiconductor Detector Systems (Series on Semiconductor
-  Science and Technology)}.
-\newblock Oxford University Press, 2005.
-
-\bibitem{2015weightfield}
-F.~Cenna, N.~Cartiglia, M.~Friedl, B.~Kolbinger, H.-W. Sadrozinski, A.~Seiden,
-  A.~Zatserklyaniy, and A.~Zatserklyaniy, ``Weightfield2: A fast simulator for
-  silicon and diamond solid state detector,'' {\em Nuclear Instruments and
-  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
-  and Associated Equipment}, vol.~796, pp.~149 -- 153, 2015.
-\newblock Proceedings of the 10th International Conference on Radiation Effects
-  on Semiconductor Materials Detectors and Devices.
-
-\bibitem{xchip03}
-M.~Havranek {\em et~al.}, ``X-chip-03 – soi maps sensor with hit counting and
-  adc mode,'' {\em manuscript in preparation}.
+\bibitem{curv}
+T.~C. Curve, ``Helix length,'' tech. rep.
 
 \bibitem{01Elektron}
 ``Electron.''
+\newblock https://en.wikipedia.org/wiki/Electron.
 
 \bibitem{Plyny}
 ``{Vedení elektrického proudu v plynech a ve vakuu},'' ({Gymnázium F. X.
@@ -82,25 +49,45 @@ Y.~Bozhko, J.~Barnard, and N.~Hilleret, ``{Measurements of the Secondary
   Electron Emission of Some Insulators},'' 1997.
 
 \bibitem{ellion}
-M.~E. Ellion, ``A study of electrical discharge in low-pressure air,'' tech.
+M.~E. Ellion, ``{A Study of Electrical Discharge in Low-Pressure Air},'' tech.
   rep., Jet Propulsion Laboratory, 1965.
 
 \bibitem{Manual}
 {Precision and Vacuum Technology}, ``{ES40-PS Electron Source Power Supply},''
   February 2018.
 
-<<<<<<< HEAD
 \bibitem{05Simion}
 ``Simion,'' July 2019.
+\newblock https://simion.com/.
 
-=======
->>>>>>> b1d5f9b368f80ad47725bee044f2baa0e698eb9c
+\bibitem{lutz1999semiconductor}
+G.~Lutz, {\em Semiconductor Radiation Detectors: Device Physics}.
+\newblock Springer, 2007.
+
+\bibitem{spieler2005semiconductor_detector_systems}
+H.~Spieler, {\em Semiconductor Detector Systems (Series on Semiconductor
+  Science and Technology)}.
+\newblock Oxford University Press, 2005.
+
 \bibitem{ramo1939}
-S.~Ramo, ``Currents induced by electron motion,'' {\em Proceedings of the IRE},
-  vol.~27, pp.~584--585, Sept 1939.
+S.~Ramo, ``{Currents Induced by Electron Motion},'' {\em Proceedings of the
+  IRE}, vol.~27, pp.~584--585, Sept 1939.
 
 \bibitem{shockley1938}
 W.~Shockley, ``Currents to conductors induced by a moving point charge,'' {\em
   J.~Appl.~Phys.}, vol.~9, p.~635, 1938.
+
+\bibitem{2015weightfield}
+F.~Cenna, N.~Cartiglia, M.~Friedl, B.~Kolbinger, H.-W. Sadrozinski, A.~Seiden,
+  A.~Zatserklyaniy, and A.~Zatserklyaniy, ``Weightfield2: A fast simulator for
+  silicon and diamond solid state detector,'' {\em Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment}, vol.~796, pp.~149 -- 153, 2015.
+\newblock Proceedings of the 10th International Conference on Radiation Effects
+  on Semiconductor Materials Detectors and Devices.
+
+\bibitem{xchip03}
+M.~Havranek {\em et~al.}, ``X-chip-03 – soi maps sensor with hit counting and
+  adc mode,'' {\em manuscript in preparation}.
 
 \end{thebibliography}
