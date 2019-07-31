@@ -1,7 +1,8 @@
 \newpage
 \chapter{Simulace fokusační soustavy}
+\label{kapKuba}
 
-Ačkoliv se dalo očekávat, že svazek z elektronového děla bude dostatečné fokusovaný, rozhodli jsme se sestrojit fokusovací soustavu, která by umožňovala manipulovat s vlastnostmi svazku. Jelikož se v průběhu vývoje děla ukázalo, že bude pravděpodobně třeba svazek i urychlit, přešel původní koncept fokusovací soustavy elektrostatických čoček k novému, který by umožňoval také zvyšovat energii elektronů. Postupný vývoj návrhu soustavy motivovaný simulacemi v programu SIMION~\cite{05Simion} je popsán v této kapitole.
+Ačkoliv se dalo očekávat, že svazek z elektronového děla bude dostatečné fokusovaný, rozhodli jsme se sestrojit fokusovací soustavu, která by umožňovala manipulovat s vlastnostmi svazku. Jelikož se v průběhu vývoje děla ukázalo, že bude pravděpodobně třeba svazek i urychlit, přešel původní koncept fokusovací soustavy elektrostatických čoček k novému, který by umožňoval také zvyšovat energii elektronů. Postupný vývoj návrhu soustavy je popsán v této kapitole a doplněn o simulace v programu SIMION~\cite{05Simion}.
 
 \section{Einzel lens}
 
@@ -20,14 +21,14 @@ Princip fokusace je demonstrovaný na Obr.~\ref{05simulaceEinzelLens}, na které
 \begin{figure}[htbp!]
 \centering
 \includegraphics[width = \linewidth]{Figure/05/3a.jpg}
-\caption{Simualce fouksační soustavy einzel lens v programu SIMION. Parametry jsou uvedeny v textu.}
+\caption[Simualce fokusační soustavy einzel lens v programu SIMION.]{Simualce fokusační soustavy einzel lens v programu SIMION. Parametry jsou uvedeny v textu.}
 \label{05simulaceEinzelLens}
 \end{figure}
 
 \begin{figure}[htbp!]
 \centering
 \includegraphics[width = \linewidth]{Figure/05/3b.jpg}
-\caption{Znázornění potenciálových hladin fokusační soustavy einzel lens v programu SIMION. Parametry simulované čočky jsou uvedeny v textu.}
+\caption[Znázornění potenciálových hladin fokusační soustavy einzel lens v programu SIMION.]{Znázornění potenciálových hladin fokusační soustavy einzel lens v programu SIMION. Parametry simulované čočky jsou uvedeny v textu.}
 \label{05simulaceEinzelLensPotencial}
 \end{figure}
 
@@ -41,7 +42,7 @@ Urychlování a fokusování elektronového děla měly zajišťovat čtyři vá
 	\item jako elektrody měly sloužit válečky nařezané z měděné trubky o průměru 3 cm různých délek
 \end{itemize}
 
-Nastavení napětí na elektrodách bylo motivováno myšlenkou, že elektrony, o nichž jsme předpokládali, že budou vylétávat z wolframového vlákna izotropně ve všech směrech s energiemi v řádech eV, je nejprve třeba urychlit v požadovaném směru a následně fokusovat a zároveň stanovit jejich finální energii, která měla původně dosahovat hodnot $~80$~keV. Proto napětí mezi první a druhou elektrodou vytvářela potenciálovou jámu, která měla elektrony strhávat správným směrem. Poslední tři elektrody pak měly společně tvořit soustavu podobnou einzel lens s tím rozdílem, že napětí na poslední elektrodě bude to nejvyšší a elektrony budou tak v poslední fázi fokusování zároveň urychleny na co nejvyšší energii. Na Obr.~\ref{05simulaceVlastniDelo} je výsledek simulace navrhované konfigurace s těmito parametry:
+Nastavení napětí na elektrodách bylo motivováno myšlenkou, že elektrony, o nichž jsme předpokládali, že budou vylétávat z wolframového vlákna izotropně ve všech směrech s energiemi v řádech eV, je nejprve třeba urychlit v požadovaném směru a následně fokusovat a zároveň stanovit jejich finální energii, která měla původně dosahovat hodnot$~80$~keV. Proto napětí mezi první a druhou elektrodou vytvářela potenciálovou jámu, která měla elektrony strhávat správným směrem. Poslední tři elektrody pak měly společně tvořit soustavu podobnou einzel lens s tím rozdílem, že napětí na poslední elektrodě bude to nejvyšší a elektrony budou tak v poslední fázi fokusování zároveň urychleny na co nejvyšší energii. Na Obr.~\ref{05simulaceVlastniDelo} je výsledek simulace navrhované konfigurace s těmito parametry:
 \begin{itemize}
 	\item Vzdálenost mezi elektrodami: $\Delta x = 2$~mm
 	\item Geometrie elektrod: $d = 30$ mm, $l_0 = 40$~mm, $l_1 = 24$~mm, $l_2 = 26$~mm, $l_3 = 30$~mm
@@ -52,7 +53,7 @@ Nastavení napětí na elektrodách bylo motivováno myšlenkou, že elektrony, 
 \begin{figure}[htbp!]
 \centering
 \includegraphics[width = 366 pt]{Figure/05/2a.jpg}
-\caption{Simulace navrhované konfigurace pro elektronové dělo z programu SIMION. Parametry simulace jsou uvedeny v textu.}
+\caption[Simulace navrhované konfigurace pro elektronové dělo z programu SIMION.]{Simulace navrhované konfigurace pro elektronové dělo z programu SIMION. Parametry simulace jsou uvedeny v textu.}
 \label{05simulaceVlastniDelo}
 \end{figure}
 
@@ -61,15 +62,16 @@ Konfiguraci lze ještě vylepšit jednoduše tím, že se wolframové vlákno um
 \begin{figure}[htbp!]
 \centering
 \includegraphics[width = 366 pt]{Figure/05/2c.jpg}
-\caption{Simulace navrhované konfigurace pro elektronové dělo z programu SIMION se zdrojem uvnitř první elektrody. Parametry simulace jsou uvedeny v textu. }
+\caption[Simulace navrhované konfigurace pro elektronové dělo z programu SIMION se zdrojem uvnitř první elektrody.]{Simulace navrhované konfigurace pro elektronové dělo z programu SIMION se zdrojem uvnitř první elektrody. Parametry simulace jsou uvedeny v textu. }
 \label{05simulaceVlastniDeloWehnelt}
 \end{figure}
 
 \section{Urychlování svazku z průmyslového děla}
+\label{simulaceKuba}
 
-Zakoupené elektronové dělo bylo od výroby dostatečně dobře fokusované. Nejmenší možný průměr svazku uvedený výrobcem byl $d = 120$~$\mu$m ve vzdálenosti $l = 56$~mm. Proto fokusační soustava ztrácela svůj význam. Přesto však bylo třeba pro účely detekce svazek urychlit. Maximální energie svazku byla totiž $E = 5$~keV. Nakonec i možnost posouvat ohnisko svazku a tak jej fokusovat nebo defokusovat nezávisle na nastavení na průmylsovém děle se jevila jako zajímavá. Proto se finální fokusovací soustava skládala opět ze čtyř elektrod.\\
+Zakoupené elektronové dělo bylo od výroby dostatečně dobře fokusované. Nejmenší možný průměr svazku uvedený výrobcem byl $d = 120$~$\mu$m ve vzdálenosti $l = 56$~mm. Proto fokusační soustava ztrácela svůj význam. Přesto však bylo třeba pro účely detekce svazek urychlit. Maximální energie svazku byla totiž $E = 5$~keV. Nakonec i možnost posouvat ohnisko svazku a tak jej fokusovat nebo defokusovat nezávisle na nastavení na průmyslovém děle se jevila jako zajímavá. Proto se finální fokusovací soustava skládala opět ze čtyř elektrod.\\
 
-Elektrody byly tentokrát umístěny ve větší vzdálenosti od sebe, abychom omezili pravděpodobnost probíjení mezi nimy, ačkoliv jsme zcela s jistotou nevěděli, zdali k němu docházelo. Svazek z děla je v následujích simulacích reprezentován rovnoběžnými trajektoriemi dvou elektronů, které jej hypoteticky ohraničují. Průměr svazku je $d = 1$ mm a energie $E = 5$~keV. Ostatní parametry finální konfigurace jsou následující:
+Elektrody byly tentokrát umístěny ve větší vzdálenosti od sebe, abychom omezili pravděpodobnost probíjení mezi nimy, ačkoliv jsme zcela s jistotou nevěděli, zdali k němu docházelo. Svazek z děla je v následujících simulacích reprezentován rovnoběžnými trajektoriemi dvou elektronů, které jej hypoteticky ohraničují. Průměr svazku je $d = 1$ mm a energie $E = 5$~keV. Ostatní parametry finální konfigurace jsou následující:
 \begin{itemize}
 	\item Vzdálenost mezi elektrodami: $\Delta x = 2$~mm
 	\item Geometrie elektrod: $d = 30$~mm, $l_0 = 40$ mm, $l_1 = 24$ mm, $l_2 = 26$ mm, $l_3 = 30$ mm
@@ -92,13 +94,13 @@ Ačkoliv to není z Obr. \ref{05simulaceFinalniKonfigurace} vzhledem k nepoměru
 \vfill
 \vspace{0.22cm}
 \includegraphics[width = \linewidth]{Figure/05/1c.jpg}
-\caption{Simulace fokusování svazku z průmyslového elektronového děla v programu SIMION. Parametry simulace jsou uvedeny v textu. Jednotlivé obrázky se liší pouze napětím na druhé elektrodě. Lze pozorovat posun ohniska.}
+\caption[Simulace fokusování svazku z průmyslového elektronového děla v programu SIMION.]{Simulace fokusování svazku z průmyslového elektronového děla v programu SIMION. Parametry simulace jsou uvedeny v textu. Jednotlivé obrázky se liší pouze napětím na druhé elektrodě. Lze pozorovat posun ohniska.}
 \label{05simulaceFinalniKonfigurace}
 \end{figure}
 
-\section{Zkouška děla se stínítkem}
+\section{Zkouška děla se stínítkem} \label{TestDela}
 
-Vliv elektrického pole fokusační soustavy jsme pozorovali pomocí fluerescenčního stínítka, které jsme umístili ve vzdálenosti $x = 195$ mm od děla. Rozhodli jsme se nejprve vyzkoušet, jak lze vlastnosti profilu svazku měnit nastavováním parametrů průmyslového děla. Vertikální a horizontální výchylky jsme nastavili na $PX = PY = 0$, horizontální i vertikální oblast skenu také vynulovali $dX = dY = 0$. Urychlovací napětí jsme nastavili na $U = 3$ kV a emisní proud na $I = 150$ $\mu$A. Dále jsme měnili fokusaci děla a Wehneltovo napětí a pozorovali, jak se změny projeví na stínítku. Jak by se dalo očekávat, při změně fokusovacího napětí se patřičně zúžoval nebo rozšiřoval průměr svazku. Změna Wehneltova napětí měla za následek rozdvojení svazku na dva, přičemž v závislosti na hodnotě napětí se profily dvou svazků překrývaly nebo vzdalovaly, jak je vidět na Obr. \ref{05dvaSvazky}. Hledali jsme nastavení s optimálním profilem svazku, abychom s ním mohli vyzkoušet fokusaci pomocí našich elektrod. Dospěli jsme k hodnotám Wehneltova napětí $U_W = 70$~V a fokusace 60\%. Profil svazku při tomto nastavení ukazuje Obr.~\ref{05optimum}.\\
+Vliv elektrického pole fokusační soustavy jsme pozorovali pomocí fluorescenčního stínítka, které jsme umístili ve vzdálenosti $x = 195$ mm od děla. Rozhodli jsme se nejprve vyzkoušet, jak lze vlastnosti profilu svazku měnit nastavováním parametrů průmyslového děla. Vertikální a horizontální výchylky jsme nastavili na $PX = PY = 0$, horizontální i vertikální oblast skenování také vynulovali $dX = dY = 0$. Urychlovací napětí jsme nastavili na $U = 3$ kV a emisní proud na $I = 150$ $\mu$A. Dále jsme měnili fokusaci děla a Wehneltovo napětí a pozorovali, jak se změny projeví na stínítku. Jak by se dalo očekávat, při změně fokusovacího napětí se patřičně zužoval nebo rozšiřoval průměr svazku. Vzhledem k tomu, že stínítko bylo až za ohniskem svazku, se profil na stínítku rozšiřoval při zvyšování fokusace na dělu a naopak. Změna Wehneltova napětí měla za následek rozdvojení svazku na dva, přičemž v závislosti na hodnotě napětí se profily dvou svazků překrývaly nebo vzdalovaly, jak je vidět na Obr. \ref{05dvaSvazky}. Hledali jsme nastavení s optimálním profilem svazku, abychom s ním mohli vyzkoušet fokusaci pomocí našich elektrod. Dospěli jsme k hodnotám Wehneltova napětí $U_W = 70$~V a fokusace 60\%. Profil svazku při tomto nastavení ukazuje Obr.~\ref{05optimum}.\\
 
 \begin{figure}[h!]
 \centering
@@ -110,14 +112,14 @@ Vliv elektrického pole fokusační soustavy jsme pozorovali pomocí fluerescen�
 \end{minipage}
 \\
 \begin{minipage}[c]{200pt}
-\caption[Dva svazky]{Rozštěpení svazku v důsledku změny Wehneltova napětí.}
+\caption[Rozštěpení svazku v důsledku změny Wehneltova napětí.]{Rozštěpení svazku v důsledku změny Wehneltova napětí.}
 \label{05dvaSvazky}
 \end{minipage}
 \begin{minipage}[c]{5pt}
 \end{minipage}
 \vspace{0.1cm}
 \begin{minipage}[c]{200pt}
-\caption[Optimum]{Optimální profil svazku elektronů.}
+\caption[Optimální profil svazku elektronů.]{Optimální profil svazku elektronů.}
 \label{05optimum}
 \end{minipage}
 \end{figure}
@@ -126,7 +128,7 @@ Po dosažení optimálního profilu svazku jsme zkoušeli připojit elektrody fo
 
 \section{Diskuze a závěr}
 
-Ačkoliv byly postupně ve vakuové komoře vyzkoušeny různé koncepty fokusačně-urychlovací soustavy elektrod, žádný z nich nefungoval podle simulace z programu SIMION. Přestože se nám nakonec podařilo najít konfiguraci napětí, při které jsme byli schopni regulací napětí na jedné elektrodě měnit fokusaci svazku, nejsme schopni funkčnost této soustavy kvalitativně vysvětlit. Neočekávané chování má možná vysvětlení v tom, že jsme ve skutečnosti přiváděli na elektrody jiné napětí než jsme se domnívali. To by mohlo být například způsobené tím, že zdroje ukazují relativní napětí mezi kladnou a zápornou zdířkou, tudíž vůči zemi mohlo být na elektrodách zcela jiné napětí. Odlišné chování zdrojů můžě potvrzovat i fakt, že při prohození zdrojů u poslední testované konfigurace a nastavení stejných napětí fokusační soustava fungovala rozdílně.\\
+Ačkoliv byly postupně ve vakuové komoře vyzkoušeny různé koncepty fokusačně-urychlovací soustavy elektrod, žádný z nich nefungoval podle simulace z programu SIMION. Přestože se nám nakonec podařilo najít konfiguraci napětí, při které jsme byli schopni regulací napětí na jedné elektrodě měnit fokusaci svazku, nejsme schopni funkčnost této soustavy kvalitativně vysvětlit. Neočekávané chování má možná vysvětlení v tom, že jsme ve skutečnosti přiváděli na elektrody jiné napětí než jsme se domnívali. To by mohlo být například způsobené tím, že zdroje ukazují relativní napětí mezi kladnou a zápornou zdířkou, tudíž vůči zemi mohlo být na elektrodách zcela jiné napětí. Odlišné chování zdrojů může potvrzovat i fakt, že při prohození zdrojů u poslední testované konfigurace a nastavení stejných napětí fokusační soustava fungovala rozdílně.\\
 
 \begin{figure}[h!]
 \centering

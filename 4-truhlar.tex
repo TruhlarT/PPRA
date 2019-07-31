@@ -1,5 +1,6 @@
 \newpage
 \chapter{Zdroj elektronů, ES40-PS}
+\label{kapTomasT}
 
 Z důvodů problémů s nedostatkem elektronů z wolframového vlákna žárovky jsme se rozhodli k použití ES40-PS jako zdroje elektronů. ES40-PS je \textit{Electron Source Power Supply} poskytující svazek elektronů s nastavitelnou energií, hustotou, pozicí a profilem svazku. Dále umožňuje skenování oblasti s nastavitelnou rychlostí skenování. 
 
@@ -33,6 +34,9 @@ Zmíněné hodnoty je možné nastavit na úvodní obrazovce ovládacího panelu
 \item \textbf{Vertikální rozsah skenu} dY je nastavitelný v rozmezí od $0{,}00$ mm do $10{,}00$ mm
 \item \textbf{TPD hodnota} (\textit{time per dot}) je nastavitelný v rozmezí od $20 \ \mu$s  do $30$ ms
 \end{itemize}
+
+Všechny výše uvedené parametry byly otestovaný a jejich vliv na elektronový svazek byl změřen a je popsán v sekci \ref{TestDela}.
+
 Při současném nastavení výchylky a skenu se může objevit zpráva "SCAN X/Y OVERFLOW", která značí překročení fyzikálního rozsahu zdroje elektronů ES40-PS a pro její odstranění je nutné snížit výchylku svazku nebo rozsah skenování. 
 
 \begin{figure}[htbp!]
@@ -60,10 +64,10 @@ Spuštění zdroje elektronů ES40-PS krok za krokem:
 \end{enumerate} 
 
 
-\textbf{DEGAS} procedura
+\textbf{DEGAS} procedura:
 \begin{enumerate}
 \item Před zapnutím do \textit{OPERATE} módu je nutné nastavit všechny napětí a proudy na minimum. 
-\item Po zapnutí do \textit{OPERATE} módu je nutné nastavit následující parametry v daném pořadí: Energie = $2{,}00$ kV, Fokusace = $88{,}0$ \% a Wehneltovo napětí = $71{,}0$ V
+\item Po zapnutí do \textit{OPERATE} módu je nutné nastavit následující parametry v daném pořadí: Energie = $2{,}00$ kV, Fokusace = $88{,}0$ \% a Wehneltovo napětí~=~$71{,}0$~V
 \item Zvýšení Emise na $300{,}00 \ \mu$A 
 \item S tímto nastavením by mělo zařízení pracovat 10 minut
 \item Následně by měla být emise snížena na minimum a poté i zbývající napětí

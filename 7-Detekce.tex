@@ -1,8 +1,8 @@
-\newcommand{\fig}[3]{ 
+\newcommand{\fig}[4]{ 
 	\begin{figure}[!ht]
 		\centering
 		\includegraphics[width=#1\linewidth]{Figure/07/#2.png}
-		\caption{#3}
+		\caption[#3]{#4}
 		\label{#2}
 	\end{figure}
 }
@@ -14,11 +14,12 @@
 \newpage \clearpage
 
 \chapter{Detekce svazku}
+\label{kapMatej}
 
 \section{Detekční technologie}
 Po zvážení možností způsobu detekce elektronového svazku bylo jako optimální možnost zvoleno použití křemíkového pixelového detektoru X-CHIP03 vyvinutého v rámci FJFI ČVUT v Praze skupinou CAPADS. Ten by měl, jakožto detektor ionizujícího záření, dobře posloužit účelu, tedy zaznamenávání průletu elektronů. Další výhodou jeho použití byla možnost konzultace s týmem, který jej vytvořil. 
 
-Vzhledem k monolitické technologii, v níž je detekční čip navržen, existuje spodní hranice pro energii detekovaných částic. Ta byla pro elektrony ze simulací stanovena na 60 keV - hodnotu, jíž bylo teoreticky elektronovým dělem dosáhnout. Vzhledem ke komplikacím, které se objevily během testování (dříve zmíněné vakuové výboje, ...) se nakonec bohužel podařilo dosáhnout energií maximálně 15 keV, které neprojdou vrstvou elektroniky do citlivé oblasti.
+Vzhledem k monolitické technologii, v níž je detekční čip navržen, existuje spodní hranice pro energii detekovaných částic. Ta byla pro elektrony ze simulací stanovena na 80 keV - hodnotu, jíž bylo teoreticky elektronovým dělem dosáhnout. Vzhledem ke komplikacím, které se objevily během testování (dříve zmíněné vakuové výboje, ...) se nakonec bohužel podařilo dosáhnout energií maximálně 20 keV, které neprojdou vrstvou elektroniky do citlivé oblasti.
 
 K vyřešení tohoto problému bylo navrženo využití konverzní vrstvy slitiny mědi a zlata. Tato tenká folie byla umístěna do cesty svazku před detektorem a při ozařování elektrony docházelo k emisi fotonů o podobné energii, které už nebyl problém detekovat. 
 
@@ -26,7 +27,7 @@ K vyřešení tohoto problému bylo navrženo využití konverzní vrstvy slitin
 \subsection{Pásová struktura}
 Krystalické pevné látky se klasifikují jako vodiče, polovodiče a izolanty, přičemž kriteriem pro toto rozdělení je tzv. šířka zakázaného pásu. Ta vyplývá z pásové struktury (\figref{pasova_struktura}), tedy modelu, který popisuje energetické rozdělení elektronů v krystalu. 
 
-\fig{1}{pasova_struktura}{Grafické znázornění pásové struktury a) izolantu, b) polovodiče a c) vodiče. \cite{lutz1999semiconductor}}
+\fig{1}{pasova_struktura}{Grafické znázornění pásové struktury.}{Grafické znázornění pásové struktury a) izolantu, b) polovodiče a c) vodiče. \cite{lutz1999semiconductor}}
 
 Energetické spektrum samostatného elektronu je diskrétní, přičemž jednotlivé hladiny jsou určeny kvantovými čísly. Přidáváním dalších elektronů postupně dochází k rozštěpení hladin a při přechodu k makroskopickému popisu krystalu, je již třeba použít statistický model. Tím je pásová struktura, ve které se při velkém počtu elektronů původně diskrétní energetické hladiny shlukují do spojitých pásů - valenčního a vodivostního.
 
@@ -47,7 +48,7 @@ Vlastnosti polovodičů mohou být zlepšeny tzv. dopováním. Při tomto proces
 
 Připojíme-li k sobe opačně dopované polovodiče, vznikne dioda a na jejím rozhraní tzv. vyprázdněná oblast, viz \figref{depleted}. Jde o místo, ze kterého jsou volné nosiče náboje vypuzeny vlivem přirozeně vzniklého elektrického pole. Pokud je navíc na diodu přivedeno napětí v závěrném směru, šířka vyprázdněné oblasti se zvětší.
 
-\fig{.9}{depleted}{Přechod mezi P (nalevo) a N (napravo) polovodiči. Znaménka v kroužku značí volné nosiče náboje, které jsou v přítomnosti pole odpuzeny, nezakroužkovaná znaménka pak ionty ve vrcholech krystalické mřížky. Graf pod obrázkem zobrazuje průběh odpovídajícího potenciálu. \cite{spieler2005semiconductor_detector_systems}}
+\fig{.9}{depleted}{Přechod mezi P a N polovodiči.}{Přechod mezi P (nalevo) a N (napravo) polovodiči. Znaménka v kroužku značí volné nosiče náboje, které jsou v přítomnosti pole odpuzeny, nezakroužkovaná znaménka pak ionty ve vrcholech krystalické mřížky. Graf pod obrázkem zobrazuje průběh odpovídajícího potenciálu. \cite{spieler2005semiconductor_detector_systems}}
 
 %Základním prvkem polovodičového detektoru je tzv. vyprázdněná oblast. Jde o místo s minimální koncentrací volných nosičů náboje, které vznikne v diodě při jejím zapojení v závěrném směru, viz \figref{depleted}. Na diodu je dále přivedeno tzv. biasovací napětí, které dále rozšiřuje vyprázdněnou oblast a navíc urychluje volné nosiče náboje, které by v ní vznikly.
 
@@ -60,9 +61,9 @@ Pokud má částice dostatečnou energii, mohou tyto páry vznikat podél celé 
 
 Driftem elektronů a děr vzniká v materiálu proud, který je následně registrován jako signál. Jeho časový vývoj závisí například na typu nosiče\footnote{Elektrony se v křemíku pohybují $\sim 3 \times$ rychleji, než díry.} nebo na jeho aktuální poloze, pak záleží na tvaru elektrického pole v souladu se Shockley-Ramovým teorémem \cite{ramo1939}, \cite{shockley1938}. Příklad časové závislosti signálu je na \figref{pd_weightfield_mu}.
 
-\fig{1}{particle-detection}{Znázornění elektron-děrových párů vzniklých ve vyprázdněné oblasti detektoru při průletu různých druhů ionizujících částic.}
+\fig{1}{particle-detection}{Znázornění elektron-děrových párů vzniklých ve vyprázdněné oblasti detektoru při průletu různých druhů ionizujících částic.}{Znázornění elektron-děrových párů vzniklých ve vyprázdněné oblasti detektoru při průletu různých druhů ionizujících částic.}
 
-\fig{1}{pd_weightfield_mu}{Časový vývoj proudového signálu generovaného mionem o energii 1 GeV v pixelu křemíkového. Model z programu Weightfield2 \cite{2015weightfield}. Oranžová křivka značí proud indukovaný pohybem děr,modrá pohybem elektronů a černá celkový.}
+\fig{1}{pd_weightfield_mu}{Časový vývoj proudového signálu generovaného mionem o energii 1 GeV v pixelu křemíkového detektoru.}{Časový vývoj proudového signálu generovaného mionem o energii 1 GeV v pixelu křemíkového detektoru. Model z programu Weightfield2 \cite{2015weightfield}. Oranžová křivka značí proud indukovaný pohybem děr,modrá pohybem elektronů a černá celkový.}
 
 \clearpage
 
@@ -80,11 +81,11 @@ V průběhu práce na experimentu se bohužel ukázalo, že výhody 2-D rozliše
 \section{X-CHIP03}
 Pro skenování elektronového svazku byl v rámci tohoto projektu zvolen X-CHIP03 (\figref{xchip03_mp}). Jde o monolitický\footnote{V případě monolitických detektorů je na rozdíl od hybridních vyčítací část elektroniky umístěna ve stejném jednolitém objemu křemíku jako senzitivní vyprázdněná oblast.} pixelový detektor tvořený maticí 64x64 pixelů o rozměrech $4.2\times 5 \mathrm{mm}^2$. 
 
-\fig{1}{xchip03_mp}{Model designu (vlevo) a fotografie (vpravo) detekčního čipu X-CHIP03, \cite{xchip03}.}
+\fig{1}{xchip03_mp}{Model designu a fotografie detekčního čipu X-CHIP03.}{Model designu (vlevo) a fotografie (vpravo) detekčního čipu X-CHIP03, \cite{xchip03}.}
 
 Detekční set-up, viz \figref{setup} se skládá z čipu umístěného na FURRy, PCB zprostředkující transfer fyzického signálu do USB portu, který je možné přímo připojit k počítači. Ke zpracování dat pak slouží software ASPIRE, přičemž obě zmíněné složky byly vyvinuty v rámci CAPADS. Celý set-up je umístěn na stojanu, který byl pro tento účel navržen a vytvořen ve 3-D tiskárně. Přechod mezi vakuem a notebookem vyčítajícím data byl zajištěn přes přechodku vakuové komory, na kterou byl z obou stran zajištěn rozpojený USB kabel.
 
-\fig{1}{setup}{Experimentální detekční set-up. V pravé části se nachází detekční čip X-CHIP03, překrytý zlatavou konverzní folií. Větší PCB je FURRy, oranžové komponenty slouží jako stojánek, dále upevněný ve vakuové komoře. Z levé části rovněž vystupuje port USB.}
+\fig{1}{setup}{Experimentální detekční set-up.}{Experimentální detekční set-up. V pravé části se nachází detekční čip X-CHIP03, překrytý zlatavou konverzní folií. Větší PCB je FURRy, oranžové komponenty slouží jako stojánek, dále upevněný ve vakuové komoře. Z levé části rovněž vystupuje port USB.}
 
 \label{chapter2}
 
